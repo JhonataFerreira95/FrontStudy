@@ -118,3 +118,28 @@ Bem, para textos simples e quebra de linha utilizamos a tag `<p>` que é refente
 <p>Paragráfo</p>
 
 ```
+
+## Elementos de formatação
+
+No html podemos escreve utilizando negrito, ítalico ou abmos para destacar partes de um texto, isso com a tag `<b>texto</b>` para negrito ou `<i>texto</i>` para ítalico.
+
+```html
+
+<b>texto negrito</b>
+
+<i>texto ítalico</i>
+
+```
+
+### Strong e Em
+
+`<strong>` e `<em>` são novas tags do HTML 5 para substítuir as tags `<b>` e `<i>` para ser algo semântico, apesar de ambas ter o mesmo resultado.
+
+```html
+
+<strong>texto negrito</strong>
+
+<em>texto ítalico</em>
+
+```
+
