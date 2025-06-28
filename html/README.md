@@ -96,3 +96,25 @@ O `body` é feito para os usuários, ele é a página em si.
 ```
 
 ## Paragráfos e títulos
+
+### Títulos
+
+Começando pelos títulos, existem vários níveis de títulos e seguem uma ordem como `h1`, `h2`, `h3`... Vão até o `h6`, mais como é visto o `h1` é o maior título da página.
+
+```html
+
+<h1>Título 1: o título principal</h1> 
+
+<h2>Título 2: o título secundário</h2> 
+
+```
+
+### Paragráfo
+
+Bem, para textos simples e quebra de linha utilizamos a tag `<p>` que é refente ao paragráfo
+
+```html
+
+<p>Paragráfo</p>
+
+```
