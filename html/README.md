@@ -10,7 +10,7 @@
 05. [Semântica e acessibilidade]()
 06. [Boa prática e otimizações]()
 
-### O que é o HTML e como usá-lo
+## O que é o HTML e como usá-lo
 
 #### O que é HTML?
 
@@ -26,11 +26,23 @@ Através de arquivos de texto com a extensão `.html`.
 
 Usando o que chamamos de `tag`, que representam os elementos que queremos exibir na página web.
 
-Uma `tag` é algo como: `<p>isso é uma tag</p>`.
+Uma `tag` é algo como: 
+
+```html
+
+<p>isso é uma tag</p>
+
+```
 
 Uma `tag` pode ter atributos, que são características especiais de um determinado elemento.
 
-Uma `tag` com um atrbuto é algo como: `<p id="paragrafo-principal"> isso é uma tag com atributo</p>`.
+Uma `tag` com um atrbuto é algo como: 
+
+```html
+
+<p id="paragrafo-principal"> isso é uma tag com atributo</p>
+
+```
 
 ### Existem tipos de elementos HTML
 
@@ -47,3 +59,38 @@ Divisores, cabeçalhos, rodapés, etc.
 Documentaçõa da [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)!
 
 Documentação da [W3SCHOOLS](https://www.w3schools.com/html/html_intro.asp)!
+
+## Estrutura de uma página web
+
+Uma página web é composta principais, o `head` e o `body`.
+
+A tag `head` define s meta dados do documento, ou seja, informações sbre o próprio documento.
+
+O `head` é feito para o navegador, para que ele "conheça melhor" a página HTML em questão.
+
+A tag `body` contém todo o conteúdo visível do documento.
+
+O `body` é feito para os usuários, ele é a página em si.
+
+### head
+
+```html
+
+<html>
+<head>
+	<title>HTML page</title>
+</head>
+
+</html>
+
+```
+
+### body
+
+```bash
+
+<body>
+	<h1>Olá, mundo!</h1>
+</body>
+
+```
