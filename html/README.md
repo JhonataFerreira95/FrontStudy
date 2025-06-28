@@ -3,7 +3,7 @@
 ## índices
 
 00. [O que é HTML e como usá-lo](#o-que-é-o-html-e-como-usá-lo)
-01. [Principais elementos e tags HTML]()
+01. [Principais elementos e tags HTML](#estrutura-de-uma-página-web)
 02. [Lista e tabelas]()
 03. [Formulários e seus componentes]()
 04. [Recursos do HTML 5]()
@@ -40,7 +40,7 @@ Uma `tag` com um atrbuto é algo como:
 
 ```html
 
-<p id="paragrafo-principal"> isso é uma tag com atributo</p>
+<p id="paragráfo-principal"> isso é uma tag com atributo</p>
 
 ```
 
@@ -94,3 +94,5 @@ O `body` é feito para os usuários, ele é a página em si.
 </body>
 
 ```
+
+## Paragráfos e títulos
