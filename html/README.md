@@ -143,3 +143,13 @@ No html podemos escreve utilizando negrito, ítalico ou abmos para destacar part
 
 ```
 
+## Comentários
+
+Aqui serei breve, o uso de comentários não é muito utilizado, pois a grande maioria dos devs acham que deixam o código muito poluído, de qualquer forma, um comentário do html é feito assim
+
+```html
+
+<!--comentário-->
+
+```
+
