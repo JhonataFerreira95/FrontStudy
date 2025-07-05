@@ -171,7 +171,7 @@ Também temos a presença do `alt`, que nada mais é do que um texto alternativo
 
 ```
 
-## Altura e largura no HTML 5
+## Alterar e largura no HTML 5
 
 No html temos a presença de altura e largura da imagem, para complmentar isso, utilizerei o exemplo anterior. Os atríbutos são `height` para a altura e width` para a largura.
 
@@ -180,3 +180,22 @@ No html temos a presença de altura e largura da imagem, para complmentar isso, 
 <img src="./caminho_da_imagem" alt="decrição" height="100" width="50">
 
 ```
+
+## Formatos e otimização de imagens
+
+Importante saber que uma página web esteja sempre otimizada. Páginas pesada demoram para carregar gerando uma experiência ruim, consomem mais dados, que é ruim para quem tem dados limitados. Um dos aspectos que mais pode atrapalha uma página são suas imagens.
+
+#
+
+### Como otimizar as imagens?
+
+Utilze os formatos corretos como: 
+
+#### JPEG:formato de mais qualidade, porém mais pesado.
+#### PNG:formato inferior ao JPEG, mas que pode ser comprimido mantendo a qualidade.
+#### WEBP:formato criado especificamente para a web pelo Google, oferece o melhor equilibrio entre qualidade e tamanho.
+#### SVG:formato usado para vetores, que são imagens geométricas super leves e que podem escalar para qualquer tamanho.
+
+### Tamanhos corretos 
+
+Imagens grande ficam pesada e pquenas demais ficam pixeladas, se necessários use o atríbuto `srcset` para definir diferente versões da imagem para diferentes dispositivos. Comprima a imagem, se possível.
