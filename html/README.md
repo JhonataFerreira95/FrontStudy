@@ -153,3 +153,30 @@ Aqui serei breve, o uso de comentários não é muito utilizado, pois a grande m
 
 ```
 
+## Atríbuto de imagem
+
+Para acessar uma imagem no `html` usamo a tag `img` e dentro da tag `img` temos um atributo chamado `src` que signifca `source`, que sua tradução é `fonte`, ou seja, fonta de imagem.
+
+```html
+
+<img src="./caminho_da_imagem">
+
+```
+
+Também temos a presença do `alt`, que nada mais é do que um texto alternativo para imagem, caso a imageme esteja quebrada. Sem conta que entra na questão de acessibilidade.
+
+```html
+
+<img src="./caminho_da_imagem" alt="decrição">
+
+```
+
+## Altura e largura no HTML 5
+
+No html temos a presença de altura e largura da imagem, para complmentar isso, utilizerei o exemplo anterior. Os atríbutos são `height` para a altura e width` para a largura.
+
+```html
+
+<img src="./caminho_da_imagem" alt="decrição" height="100" width="50">
+
+```
