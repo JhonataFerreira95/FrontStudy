@@ -221,3 +221,22 @@ A régua horizontal ou horizontal rule, é a função de régua horizontal utili
 <p>quarta linha. <br> quinta linha. <br> sexta linha.</p>
 
 ```
+
+## Oganização da página com elementos genéricos, <div> e <span>
+
+No `html` possuímos 2 elementos genéricos para organização da página, para criar diferente divisões e blocos na nossa página esse elementos são o `<div>` e o `<span>`. A principal diferença entre esses dois é que o `<div>` organiza em blocos o conteúdo que ele agrupa e o `<span>` organiza os seus elementos em linha.
+
+```html
+
+<p> Um div é um grupo de código <div>que ocupa todo espaço horizontal disponível.</div> </P>  
+
+```
+
+Também no `html` temos a tag `<span>` que quebra linha ocupado apenas a largura do seu conteúdo interno
+
+```html
+
+<P>Exemplo <span>para o span</span></p> <!--Utilize o dev-tools no navegador para visualizar o <span>-->
+
+```
+
