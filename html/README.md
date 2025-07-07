@@ -111,7 +111,7 @@ Começando pelos títulos, existem vários níveis de títulos e seguem uma orde
 
 ### Paragráfo
 
-Bem, para textos simples e quebra de linha utilizamos a tag `<p>` que é refente ao paragráfo
+Bem, para textos simples e quebra de linha utilizamos a tag `<p>` que é refente ao paragráfo, inclsuive quando você abre a tag `<p>` e fecha ela posteriomente, abre outra novamente, elas ficam separadas. 
 
 ```html
 
@@ -199,3 +199,25 @@ Utilze os formatos corretos como:
 ### Tamanhos corretos 
 
 Imagens grande ficam pesada e pquenas demais ficam pixeladas, se necessários use o atríbuto `srcset` para definir diferente versões da imagem para diferentes dispositivos. Comprima a imagem, se possível.
+
+## Quebra de linha e régua horizontal
+
+Para pular linha no `html` usamos a tag `<br>` que se chama line break, por isso o nome `br`. Como visto anteriormente essa tag segue o mesmo padrão da tag `<img>`, que é uma tag auto-contida.
+
+```html
+
+<p>Exemplo de linha. <br> Exemplo de linha 2. <br> Exemplo de linha 3. </p>
+
+```
+
+A régua horizontal ou horizontal rule, é a função de régua horizontal utilizando a tag `hr` no html.
+
+```html
+
+<p>Exemplo de linha. <br> Exemplo de linha 2. <br> Exemplo de linha 3. </p>
+
+<hr>
+
+<p>quarta linha. <br> quinta linha. <br> sexta linha.</p>
+
+```
