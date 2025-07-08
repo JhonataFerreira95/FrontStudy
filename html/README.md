@@ -240,3 +240,13 @@ Também no `html` temos a tag `<span>` que quebra linha ocupado apenas a largura
 
 ```
 
+## Trabalhando com links no HTML 
+
+Irei aborda as tags de links ou âncoras no `html`. A tag que irei aborda agora é a tag `<a>`, ele funciona inline ou em linha na tradução, funciona de jeito parecido com o `<span>`. Sendo assim possível criar links dentro do texto. Bem, para que o link da tag `<a>` funcione precisamos de um atributo chaamdo `href="link_desejado"` que é a referência da url para onde você será direcionado, assim quando você adicionar o link entre as aspas, o tag `<a>` estará em funcionament com o link desejado.
+
+```html 
+
+<a href="www.outra_pagina.com.br">Vá para outra página</a>
+
+```
+
