@@ -275,3 +275,25 @@ http://localhost:5500/ # Aqui é um exemplo de URL absoluta
 <a href="../html/009_links_absolutos_relativos.html">Exemplo de outra url relativa</a> <!--Aqui usei para começa na pasta atual "../" que representa a URL relativa para o exemplo, a diferença é clara, já que uma usa os "../" para relativa e a outra usa apenas "/" para absoluta-->
 
 ```
+
+## Links dentro da página
+
+No `html` existem link dentro da página, mais para esses links funcionar vamos falar sobre os atributos `id`, cada tag no `html` pode ter um atributo `id`, cabe você atribuir esse `id` a tag desejada. O papel do `id` é de identificar cada `tag` no html, e a ideia de `id` é que seja único, não se repete na mesma página. 
+
+### id
+
+```html
+
+<div id="identifcador">exemplo de id</div> <!--Como pode ver, nosso atributo `id`, e podemo dar qualquer nome a esse `id`, no exemplo foi usado o "identificador", para algo mais didatico-->
+
+```
+Para a navegação dentro da páginas usamos `href="#id_desejado"`, passamo no nosso atributo `href=""` o jogo da velha `#`, que representa a atribuição de um `id` dentro da página atual, lembrando que na hora de passar o `id` desejado, deve ser idêntico ao `ìd` que foi atribuido a sua tag.
+
+```html
+
+<a href="#identificador">Link rápido </a> <!--Aqui usamos o `id` do exemplo acima-->
+
+```
+
+
+
