@@ -250,3 +250,28 @@ Irei aborda as tags de links ou âncoras no `html`. A tag que irei aborda agora 
 
 ```
 
+## Url's absolutas ou relativas
+
+O que é uma `url` absoluta? É um caminho completo de uma `url` de uma determinada página, enquanto uma `url` relativa ela não é um caminho completo e sim um caminho relativa a página atual. Uma `url` absoluta geralmente é atrelada a raiz da sua página/projeto.
+
+### URL absoluta
+
+```bash
+
+http://localhost:5500/ # Aqui é um exemplo de URL absoluta
+
+```
+
+```html
+
+<a href="/html/009_links_absolutos_relativos.html">Exemplo de outra url absoluta</a> <!--Aqui usei a raiz do projeto com "/" que representa a raiz para o exemplo-->
+
+```
+
+### URL relativa
+
+```html
+
+<a href="../html/009_links_absolutos_relativos.html">Exemplo de outra url relativa</a> <!--Aqui usei para começa na pasta atual "../" que representa a URL relativa para o exemplo, a diferença é clara, já que uma usa os "../" para relativa e a outra usa apenas "/" para absoluta-->
+
+```
