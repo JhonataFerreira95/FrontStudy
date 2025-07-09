@@ -294,6 +294,8 @@ Para a navegação dentro da páginas usamos `href="#id_desejado"`, passamo no n
 <a href="#identificador">Link rápido </a> <!--Aqui usamos o `id` do exemplo acima-->
 
 ```
+## Links externos
 
+Bem, para utlizamos links externos na nossa página utlizamos um atributo `href=""`
 
 
