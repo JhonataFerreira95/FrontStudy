@@ -312,3 +312,74 @@ Um ótimo ponto para deixa a navegação salva para o usuário na sua página, �
 
 ```
 
+## Lista ordenadas e não ordenadas
+
+Para utilização de uma lista ordenada númerica no `html` utilizamos a tag `<ol>`, as listas ordenadas são aquelas em que os itens são pontuados por numeração. Para criar uma lista ordenada usamos a tag `<ol>` e a tag `<li>` para reprensentar cada númeração da sua lista ordenada.
+
+```html
+
+<ol>
+	<li>compras</li> <!--Isso no navegador ficará númerado-->
+	<li>gastos</li>
+	<li>promoções</li>
+</ol>
+
+```
+
+Para utilização de lista não ordenada sem numeração no `html` utlizamos a tag `<uL>`, as lista não ordenadas são aquelas que possuí um carcacter de uma esfera totalmente preta ao lado, sem a presença de númeração, dentro da tag `<ul>` utilizamos as tag `<li>` também para criação de itens dentro da nossa lista.
+
+```html
+
+<ul>
+	<li>compras</li> <!--Isso no navegador ficará com a esfera preta na frente do texto-->
+	<li>gastos</li>
+	<li>promoções</li>
+</ul>
+
+```
+
+Lista ordenadas e não ordenadas de forma aninhada, é possível aninhar as nossas lista ordenadas e não ordenada.
+
+```html
+
+<h2>Bolos</h2>
+    <ol>
+        <li>
+            <strong>Bolos Tradicionais</strong>
+            <ol>
+                <li>Bolo de Chocolate Fofinho</li>
+                <li>Bolo de Cenoura com Cobertura de Chocolate</li>
+                <li>Bolo de Limão com Glacê de Limão</li>
+            </ol>
+        </li>
+        <li>
+            <strong>Bolos de Festas</strong>
+            <ol>
+                <li>Bolo de Aniversário com Recheio de Frutas</li>
+                <li>Bolo de Casamento com Flores de Açúcar</li>
+                <li>Bolo de Natal com Frutas Cristalizadas</li>
+            </ol>
+        </li>
+    </ol>
+
+    <h2>Sobremesas</h2>
+    <ul>
+        <li>
+            <strong>Sobremesas Geladas</strong>
+            <ul>
+                <li>Sorvete de Chocolate Caseiro</li>
+                <li>Pudim de Leite Condensado</li>
+                <li>Gelatina Colorida com Creme</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Sobremesas Especiais</strong>
+            <ul>
+                <li>Mousse de Maracujá com Calda de Chocolate</li>
+                <li>Cheesecake de Morango</li>
+                <li>Pavê de Chocolate com Biscoitos</li>
+            </ul>
+        </li>
+    </ul>
+
+```
