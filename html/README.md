@@ -383,3 +383,5 @@ Lista ordenadas e não ordenadas de forma aninhada, é possível aninhar as noss
     </ul>
 
 ```
+
+## Criação de tabelas no HTML
