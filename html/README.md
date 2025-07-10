@@ -296,6 +296,19 @@ Para a navegação dentro da páginas usamos `href="#id_desejado"`, passamo no n
 ```
 ## Links externos
 
-Bem, para utlizamos links externos na nossa página utlizamos um atributo `href=""`
+Bem, para utlizamos links externos na nossa página utlizamos um atributo `href=""`, porém temos que trata nossos links externos de forma absoluta e não de forma raltiva, caso trate de forma relativa isso ocasionará um erro. Irei utilizar como exemplo o site do Google, tbm utilizei o protocolo
 
+```html
+
+<p>Acessa a página do <a href="https:www.google.com">Google</a>.</p> <!--Aqui usei um link absoluto, já que o relativo aponta para um lugar dentro do seu domínio, então utlizamos o protocolo htpp(hypertext protocol), e como utilizei o `https` no lugar `htpp` já que o `https` é mais seguro-->
+
+```
+
+Um ótimo ponto para deixa a navegação salva para o usuário na sua página, é a utilização do atributo `target="_blank"`, é um atríbuto que abre uma nova página quando o usuário clicar no link externo, evitando perde a navegação atual.
+
+```html
+
+<p>Acessa a página do <a href="https:www.google.com">Google</a>.</p> <!--Além do `_blank` temos outros porém o mais padrão e nosso foco é nele-->
+
+```
 
