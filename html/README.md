@@ -14,17 +14,25 @@
 
 #### O que é HTML?
 
-A singla HTML significa `HyperText Markup Leguage` ou  linguagem de marcação de HyperText.
+<ul>
 
-É uma linguagem de marcação de texto usada para criar uma estrutura de elementos e suas informações, mais precisamente, os elementos de uma página web.
+<li>A singla HTML significa `HyperText Markup Leguage` ou  linguagem de marcação de HyperText.</li>
 
-Criada entre 1989 e 1990 para compartilhamento de pesquisas cietíficas entre Tim Bernes-Lee (físico inglês e autor da linguagem) e seus colegas de trabalho.
+<li>É uma linguagem de marcação de texto usada para criar uma estrutura de elementos e suas informações, mais precisamente, os elementos de uma página web.</li>
+
+<li>Criada entre 1989 e 1990 para compartilhamento de pesquisas cietíficas entre Tim Bernes-Lee (físico inglês e autor da linguagem) e seus colegas de trabalho.</li>
+
+</ul>
 
 ### Como funciona?
 
-Através de arquivos de texto com a extensão `.html`.
+<ul>
 
-Usando o que chamamos de `tag`, que representam os elementos que queremos exibir na página web.
+<li>Através de arquivos de texto com a extensão `.html`.</li>
+
+<li>Usando o que chamamos de `tag`, que representam os elementos que queremos exibir na página web.</li>
+
+</ul>
 
 Uma `tag` é algo como: 
 
@@ -46,31 +54,43 @@ Uma `tag` com um atrbuto é algo como:
 
 ### Existem tipos de elementos HTML
 
-Títulos, parágrafos, listas, etc.
+<ul>
 
-Imagens, vídeos, áudios, etc.
+<li>Títulos, parágrafos, listas, etc.</li>
 
-Formulários, caixas de texto, botões, etc.
+<li>Imagens, vídeos, áudios, etc.</li>
 
-Divisores, cabeçalhos, rodapés, etc.
+<li>Formulários, caixas de texto, botões, etc.</li>
+
+<li>Divisores, cabeçalhos, rodapés, etc.</li>
+
+</ul>
 
 ### Recomendações além da minha própria documentação
 
-Documentaçõa da [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)!
+<ul>
 
-Documentação da [W3SCHOOLS](https://www.w3schools.com/html/html_intro.asp)!
+<li>Documentaçõa da [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)!</li>
+
+<li>Documentação da [W3SCHOOLS](https://www.w3schools.com/html/html_intro.asp)!</li>
+
+</ul>
 
 ## Estrutura de uma página web
 
-Uma página web é composta principais, o `head` e o `body`.
+<ul>
 
-A tag `head` define s meta dados do documento, ou seja, informações sbre o próprio documento.
+<li>Uma página web é composta principais, o `head` e o `body`.</li>
 
-O `head` é feito para o navegador, para que ele "conheça melhor" a página HTML em questão.
+<li>A tag `head` define s meta dados do documento, ou seja, informações sbre o próprio documento.</li>
 
-A tag `body` contém todo o conteúdo visível do documento.
+<li>O `head` é feito para o navegador, para que ele "conheça melhor" a página HTML em questão.</li>
 
-O `body` é feito para os usuários, ele é a página em si.
+<li>A tag `body` contém todo o conteúdo visível do documento.</li>
+
+<li>O `body` é feito para os usuários, ele é a página em si.</li>
+
+</ul>
 
 ### head
 
@@ -191,10 +211,17 @@ Importante saber que uma página web esteja sempre otimizada. Páginas pesada de
 
 Utilze os formatos corretos como: 
 
-#### JPEG:formato de mais qualidade, porém mais pesado.
-#### PNG:formato inferior ao JPEG, mas que pode ser comprimido mantendo a qualidade.
-#### WEBP:formato criado especificamente para a web pelo Google, oferece o melhor equilibrio entre qualidade e tamanho.
-#### SVG:formato usado para vetores, que são imagens geométricas super leves e que podem escalar para qualquer tamanho.
+<ul>
+
+ <li>JPEG:formato de mais qualidade, porém mais pesado.</li>
+
+ <li>PNG:formato inferior ao JPEG, mas que pode ser comprimido mantendo a qualidade.</li>
+
+<li>WEBP:formato criado especificamente para a web pelo Google, oferece o melhor equilibrio entre qualidade e tamanho.</li>
+
+<li>SVG:formato usado para vetores, que são imagens geométricas super leves e que podem escalar para qualquer tamanho.</li>
+
+</ul>
 
 ### Tamanhos corretos 
 
@@ -385,3 +412,5 @@ Lista ordenadas e não ordenadas de forma aninhada, é possível aninhar as noss
 ```
 
 ## Criação de tabelas no HTML
+
+
