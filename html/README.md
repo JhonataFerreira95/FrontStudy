@@ -413,4 +413,73 @@ Lista ordenadas e não ordenadas de forma aninhada, é possível aninhar as noss
 
 ## Criação de tabelas no HTML
 
+<ul>
+
+<li> Bem, com as criações de tabelas não é algo tão bonito no `html` já que sua estrutura é super simples. </li>
+
+<li> Para a criação de uma tabela no `html` utilizamos a tag `table`, dentro da nossa tag `table` existe um conjunto de tags para deixa a tabela mais organizada que são as tags: </li>
+
+
+### `<tr>`
+
+A tag `<tr>` é para gerar linha que no inglês significa `tables row` ou linha de tabelas na tradução.
+
+```html
+
+<table>
+
+<tr> 
+
+</tr>
+
+</table>
+
+```
+
+## `<td>`
+
+A tag `<td>` é um elemento da linha da tag `<tr>`, que em inglês significa `data cell in a table` ou calula com dados na tabela. Sendo assim, os dados dentro da linha.
+
+```html
+
+<table>
+
+<tr> 
+
+<td>dado 01</td>
+<td>dado 02</td>
+
+</tr>
+
+</table>
+
+```
+
+## `<th>`
+
+A tag `<th>` serve como celula do cabeçalho da tabela, por padrão a tag `<th>` fica em negrito para destaque que é cabeçalho da tabela. Para que a tag funciona é necessário está dentro da tag `tr` e posteriomente introduzir a tag `<th>`.
+
+```html
+
+<table>
+
+<tr>
+
+<th>Título</th>
+
+</tr>
+
+<tr> 
+
+<td>dado 01</td>
+<td>dado 02</td>
+
+</tr>
+
+</table>
+
+```
+
+
+
 
