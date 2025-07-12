@@ -14,25 +14,18 @@
 
 #### O que é HTML?
 
-<ul>
+- A singla HTML significa `HyperText Markup Leguage` ou  linguagem de marcação de HyperText.
 
-<li>A singla HTML significa `HyperText Markup Leguage` ou  linguagem de marcação de HyperText.</li>
+- É uma linguagem de marcação de texto usada para criar uma estrutura de elementos e suas informações, mais precisamente, os elementos de uma página web.
 
-<li>É uma linguagem de marcação de texto usada para criar uma estrutura de elementos e suas informações, mais precisamente, os elementos de uma página web.</li>
-
-<li>Criada entre 1989 e 1990 para compartilhamento de pesquisas cietíficas entre Tim Bernes-Lee (físico inglês e autor da linguagem) e seus colegas de trabalho.</li>
-
-</ul>
+- Criada entre 1989 e 1990 para compartilhamento de pesquisas cietíficas entre Tim Bernes-Lee (físico inglês e autor da linguagem) e seus colegas de trabalho.
 
 ### Como funciona?
 
-<ul>
+- Através de arquivos de texto com a extensão `.html`.
 
-<li>Através de arquivos de texto com a extensão `.html`.</li>
+- Usando o que chamamos de `tag`, que representam os elementos que queremos exibir na página web.
 
-<li>Usando o que chamamos de `tag`, que representam os elementos que queremos exibir na página web.</li>
-
-</ul>
 
 Uma `tag` é algo como: 
 
@@ -54,43 +47,40 @@ Uma `tag` com um atrbuto é algo como:
 
 ### Existem tipos de elementos HTML
 
-<ul>
 
-<li>Títulos, parágrafos, listas, etc.</li>
 
-<li>Imagens, vídeos, áudios, etc.</li>
+- Títulos, parágrafos, listas, etc.
 
-<li>Formulários, caixas de texto, botões, etc.</li>
+- Imagens, vídeos, áudios, etc.
 
-<li>Divisores, cabeçalhos, rodapés, etc.</li>
+- Formulários, caixas de texto, botões, etc.
 
-</ul>
+- Divisores, cabeçalhos, rodapés, etc.
+
+
 
 ### Recomendações além da minha própria documentação
 
-<ul>
+- Documentaçõa da [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)!
 
-<li>Documentaçõa da [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)!</li>
+- Documentação da [W3SCHOOLS](https://www.w3schools.com/html/html_intro.asp)!
 
-<li>Documentação da [W3SCHOOLS](https://www.w3schools.com/html/html_intro.asp)!</li>
 
-</ul>
 
 ## Estrutura de uma página web
 
-<ul>
 
-<li>Uma página web é composta principais, o `head` e o `body`.</li>
+- Uma página web é composta principais, o `head` e o `body`.
 
-<li>A tag `head` define s meta dados do documento, ou seja, informações sbre o próprio documento.</li>
+- A tag `head` define s meta dados do documento, ou seja, informações sbre o próprio documento.
 
-<li>O `head` é feito para o navegador, para que ele "conheça melhor" a página HTML em questão.</li>
+- O `head` é feito para o navegador, para que ele "conheça melhor" a página HTML em questão.
 
-<li>A tag `body` contém todo o conteúdo visível do documento.</li>
+- A tag `body` contém todo o conteúdo visível do documento.
 
-<li>O `body` é feito para os usuários, ele é a página em si.</li>
+- O `body` é feito para os usuários, ele é a página em si.
 
-</ul>
+
 
 ### head
 
@@ -209,19 +199,18 @@ Importante saber que uma página web esteja sempre otimizada. Páginas pesada de
 
 ### Como otimizar as imagens?
 
-Utilze os formatos corretos como: 
+- **Utilze os formatos corretos como:**
 
-<ul>
 
- <li>JPEG:formato de mais qualidade, porém mais pesado.</li>
 
- <li>PNG:formato inferior ao JPEG, mas que pode ser comprimido mantendo a qualidade.</li>
+    - JPEG:formato de mais qualidade, porém mais pesado.</li>
 
-<li>WEBP:formato criado especificamente para a web pelo Google, oferece o melhor equilibrio entre qualidade e tamanho.</li>
+    - PNG:formato inferior ao JPEG, mas que pode ser comprimido mantendo a qualidade.
 
-<li>SVG:formato usado para vetores, que são imagens geométricas super leves e que podem escalar para qualquer tamanho.</li>
+    - WEBP:formato criado especificamente para a web pelo Google, oferece o melhor equilibrio entre qualidade e tamanho.
 
-</ul>
+    - SVG:formato usado para vetores, que são imagens geométricas super leves e que podem escalar para qualquer tamanho.
+
 
 ### Tamanhos corretos 
 
@@ -314,7 +303,7 @@ No `html` existem link dentro da página, mais para esses links funcionar vamos 
 <div id="identifcador">exemplo de id</div> <!--Como pode ver, nosso atributo `id`, e podemo dar qualquer nome a esse `id`, no exemplo foi usado o "identificador", para algo mais didatico-->
 
 ```
-Para a navegação dentro da páginas usamos `href="#id_desejado"`, passamo no nosso atributo `href=""` o jogo da velha `#`, que representa a atribuição de um `id` dentro da página atual, lembrando que na hora de passar o `id` desejado, deve ser idêntico ao `ìd` que foi atribuido a sua tag.
+Para a navegação dentro da páginas usamos `href="#id_desejado"`, passamo no nosso atributo `href=""` o jogo da velha `#`, que representa a atribuição de um `id` dentro da página atual, lembrando que na hora de passar o `id` desejado, deve ser idêntico ao `ìd` que foi atribuido a sua tag.**
 
 ```html
 
@@ -415,9 +404,9 @@ Lista ordenadas e não ordenadas de forma aninhada, é possível aninhar as noss
 
 <ul>
 
-<li> Bem, com as criações de tabelas não é algo tão bonito no `html` já que sua estrutura é super simples. </li>
+- Bem, com as criações de tabelas não é algo tão bonito no `html` já que sua estrutura é super simples. 
 
-<li> Para a criação de uma tabela no `html` utilizamos a tag `table`, dentro da nossa tag `table` existe um conjunto de tags para deixa a tabela mais organizada que são as tags: </li>
+- Para a criação de uma tabela no `html` utilizamos a tag `table`, dentro da nossa tag `table` existe um conjunto de tags para deixa a tabela mais organizada que são as tags: </li>
 
 
 ### `<tr>`
@@ -479,6 +468,8 @@ A tag `<th>` serve como celula do cabeçalho da tabela, por padrão a tag `<th>`
 </table>
 
 ```
+
+###
 
 
 
