@@ -425,7 +425,7 @@ A tag `<tr>` é para gerar linha que no inglês significa `tables row` ou linha 
 
 ```
 
-## `<td>`
+### `<td>`
 
 A tag `<td>` é um elemento da linha da tag `<tr>`, que em inglês significa `data cell in a table` ou calula com dados na tabela. Sendo assim, os dados dentro da linha.
 
@@ -444,9 +444,9 @@ A tag `<td>` é um elemento da linha da tag `<tr>`, que em inglês significa `da
 
 ```
 
-## `<th>`
+### `<th>`
 
-A tag `<th>` serve como celula do cabeçalho da tabela, por padrão a tag `<th>` fica em negrito para destaque que é cabeçalho da tabela. Para que a tag funciona é necessário está dentro da tag `tr` e posteriomente introduzir a tag `<th>`.
+A tag `<th>` serve como célula do cabeçalho da tabela, por padrão a tag `<th>` fica em negrito para destaque que é cabeçalho da tabela. Para que a tag funciona é necessário está dentro da tag `tr` e posteriomente introduzir a tag `<th>`.
 
 ```html
 
@@ -469,7 +469,95 @@ A tag `<th>` serve como celula do cabeçalho da tabela, por padrão a tag `<th>`
 
 ```
 
-###
+### Tabelas com Cabeçalhos exemplos extras
+
+Demonstrando tabelas com dados mais realistas
+
+```html
+
+<h2>Tabelas com Cabeçalho</h2>
+
+<table>
+
+<tr>
+
+<th>nome</th>
+<th>idade</th>
+<th>profissão</th>
+
+</tr>
+
+<th>
+
+<th>Bass</th>
+<th>23</th>
+<th>dev back-end</th>
+
+</tr>
+
+<th>
+
+<th>Hisstrahr</th>
+<th>20</th>
+<th>dev front-end</th>
+
+</tr>
+
+</table>
+
+```
+
+### Separação da tabela do jeito morderno HTML 5
+
+Nas versões mais recente do `html` podemos separar o cabeçalho da tabela do resto, isso fica em questão de acessebilidade com as tags `thead` para identificar o cabeçalho da tabela e `tbody` para o corpo dos dados na tabela, vou pegar o exemplo acima para fica mais claro. Além da acessebilidade, o código fica mais fácil de se ler e sua separação fica extramamente clara.
+
+- **thread**
+
+    ```html
+
+    <h2>Tabelas com Cabeçalho</h2>
+
+    <table>
+
+        <thead> <!--Para a separação clara do cabeçalho-->
+
+            <tr>
+
+                <th>nome</th>
+                <th>idade</th>
+                <th>profissão</th>
+
+            </tr>
+
+        </thead>
+        
+        <tbody> <!--Para a separação clara dos dados da tabela-->
+
+            <tr>
+
+                <td>Bass</td>
+                <td>23</td>
+                <td>dev back-end</td>
+                
+            </tr>
+
+            <tr>
+
+                <td>Hisstrahr</td>
+                <td>20</td>
+                <td>dev front-end</td>
+
+            </tr>
+        
+        </tbody>
+
+    </table>
+
+    ```
+
+### Tabelas com Células Personalizadas
+
+
 
 
 
