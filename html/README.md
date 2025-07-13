@@ -555,7 +555,106 @@ Nas versões mais recente do `html` podemos separar o cabeçalho da tabela do re
 
     ```
 
-### Tabelas com Células Personalizadas
+### Tabelas com Células Personalizadas e bordas
+
+Aqui irei aborda o formatos nas células, como por dados que ocupam duas linha ou mais que isso até menos mesmo. 
+
+```html
+
+    <h2>Tabelas com células personalizadas</h2>
+        <table>
+            <thead>
+            <tr>
+                <th colspan="2">Informações Pessoais</th>
+                <th>Contato</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Nome:</td>
+                <td>João</td>
+                <td rowspan="2">Telefone: 123456</td>
+            </tr>
+            <tr>
+                <td>Idade:</td>
+                <td>30</td>
+            </tr>
+            </tbody>
+        </table>
+
+```
+- colspan
+    - Esse atributo serve para definir o tamanho que o seu dado vai ocupar na célula da coluna em seucabeçalho, para isso utilize a tag com a quantidade de tamanho que irá ocupar na coluna `colspan="2"`.
+
+```html
+
+    <thead>
+
+        <tr>
+
+            <th colspan="2">Informações Pessoais</th>
+            <th>Contato</th>
+
+        </tr>
+    </thead>
+
+```
+
+- rowspan
+    - Esse atributo serve para definir o tamanho que seu dado vai ocupar quantidade de linha na sua célula em sua tabela.
+
+```html
+
+    <tbody>
+
+        <tr>
+
+            <td>Nome:</td>
+            <td>João</td>
+            <td rowspan="2">Telefone: 123456</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Idade:</td>
+            <td>30</td>
+
+        </tr>
+
+    </tbody>
+
+```
+
+- border
+    - Esse atributo não é tão utlizado, porém é a borda para sua tabela diretamente com `html` sem o css. Para utilização do atributo `border="1"` para preencher a nossa tabela.
+
+````html
+
+    <h2>Tabelas com células personalizadas</h2>
+        <table border="1">
+            <thead>
+            <tr>
+                <th colspan="2">Informações Pessoais</th>
+                <th>Contato</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Nome:</td>
+                <td>João</td>
+                <td rowspan="2">Telefone: 123456</td>
+            </tr>
+            <tr>
+                <td>Idade:</td>
+                <td>30</td>
+            </tr>
+            </tbody>
+        </table>
+
+```
+
+
 
 
 
