@@ -629,7 +629,7 @@ Aqui irei aborda o formatos nas células, como por dados que ocupam duas linha o
 - border
     - Esse atributo não é tão utlizado, porém é a borda para sua tabela diretamente com `html` sem o css. Para utilização do atributo `border="1"` para preencher a nossa tabela.
 
-````html
+```html
 
     <h2>Tabelas com células personalizadas</h2>
         <table border="1">
@@ -654,7 +654,29 @@ Aqui irei aborda o formatos nas células, como por dados que ocupam duas linha o
 
 ```
 
-## Formúlarios no HTML
+## Formulários no HTML
+
+- O que são formulários?
+
+    - Os formulários em `html` são estruturas que permitem a coleta de informações dos usuários, como nome, e-mail, senha, comentários, etc.
+
+    - Eles são compostos por elementos `html` que possibiitam a criação de campos de entrada, botões e envio e outras funcionalidades.
+
+    - Olando de forma simples, a comunicação na web ocorre de duas formas: Obtendo dados (como uma página ou uma imagem) e enviando dados. Os formulários são os principais responsáveis pela segunda.
+
+    - Os formulário são compostos por
+
+        - Uma tag `<form>` com os atributos `action` e `method`
+
+        - Campos a serem preenchidos, como `<input>` ou `<select>`
+
+        - Um botão para enviar, ou `submeter`, o formulários:
+
+            - `<button type="submit">texto</button>`
+
+### Exemplos de formulários
+
+Práticando com a tag `<form>`
 
 
 
