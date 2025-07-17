@@ -676,9 +676,23 @@ Aqui irei aborda o formatos nas células, como por dados que ocupam duas linha o
 
 ### Exemplos de formulários
 
-Práticando com a tag `<form>`
+Práticando com a tag `<form>`, criei um formulários simples com um botão para demostrar o uso da tag `<form>` e `<button>`
 
+```html
 
+<body>
+
+    <h1>Formulários no HTML</h1>
+
+    <form action="http://google.com/search" method="get">
+        <label for="pesquisar">pesquisar`no google</label>
+        <input type="text" name"q">
+        <button type="submit">Pesquisar</button>
+    </form>
+    
+</body>
+
+```
 
 
 
