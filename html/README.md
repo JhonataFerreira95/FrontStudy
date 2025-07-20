@@ -706,10 +706,10 @@ Práticando com a tag `<form>`, criei um formulários simples com um botão para
 
     ```
 
-    - Temos o `input` campo de texto, seu atríbuto é `type="text"`, muito utilizado para coletar informações do usuário.
+    - Temos o `input` campo de texto, seu atríbuto é `type="text"`, muito utilizado para coletar informações do usuário. Um pouco mais complexo, já que temos que atribuir um `id` para posteriomente utilizar em nossa `label`, no caso do `name` é o atributo a ser enviado para autenticação no `back-end`, irei mencionar o `required` esse atríbuto obriga o usuário a preencher um campo, caso ele não seja preenchido ele não pode enviar. 
 
     ```html
 
-    <button type="text">Enviar</button>
+    <input type="text" id="nome" name="nome" required>
 
     ```
