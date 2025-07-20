@@ -771,3 +771,12 @@ Práticando com a tag `<form>`, criei um formulários simples com um botão para
     <input type="date" id="dataNascimento" name="dataNascimento">
 
     ```
+
+    - Temos o `input` upload de arquivos, seu atríbuto é `type="file"`, essa atríbuto é feito únicamente para enviar qualquer tipo de arquivo(imagem/pfd/word/vídeo/etc), adicionei um `id` para utilizar no `for` de uma `label`, apliquei um `name` para chamada `back-end`.
+
+    ```html
+
+    <label for="fotoPerfil">Foto de Perfil:</label>
+    <input type="file" id="fotoPerfil" name="fotoPerfil">
+
+    ```
