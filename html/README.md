@@ -761,3 +761,13 @@ Práticando com a tag `<form>`, criei um formulários simples com um botão para
     
 
     ```
+
+    - Temos o `input` para o campo de data, seu atríbuto é `type="date"`, esse `input` aceita apenas o formato de data, ou seja dia/mês/ano. Adicionei um `id` para chamada no `for` na `label`, utilizei um `name` para chamada `back-end`.
+
+
+    ```html
+
+    <label for="dataNascimento">Data de Nascimento:</label>
+    <input type="date" id="dataNascimento" name="dataNascimento">
+
+    ```
