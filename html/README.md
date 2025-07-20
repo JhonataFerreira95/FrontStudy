@@ -738,12 +738,14 @@ Práticando com a tag `<form>`, criei um formulários simples com um botão para
 
     ```
 
-    - Temos o `input` para campo de marca/desmarca mais conhecido com `radio`, seu atríbuto é `type="radio"`, esse atríbuto tem opção de escolha, no exemplo utilizamos para seleção de sexo. Adicionei um `id` para nosso atríbuto `type="radio"` para que posteriormente passar em alguma `label`, passei um `name` para chamada no `back-end` como passamos o mesmo `name` ambos atríbuto `type="radio"` vai ser o mesmo valor no `back-and`, então sendo uma opção de uma escolha. Adicionamos um atríbuto de `value` para o valor do `input` a ser enviado ao `back-end`.
+    - Temos o `input` para campo de marca/desmarca mais conhecido com `radio`, seu atríbuto é `type="radio"`, esse atríbuto tem opção de escolha, no exemplo utilizamos para seleção de sexo. Adicionei um `id` para nosso atríbuto `type="radio"` para que posteriormente passar em alguma `label` e em seu `for`, passei um `name` para chamada no `back-end` como passamos o mesmo `name` ambos atríbuto `type="radio"` vai ser o mesmo valor no `back-and`, então sendo uma opção de uma escolha. Adicionamos um atríbuto de `value` para o valor do `input` a ser enviado ao `back-end`.
 
     ```html
 
     <input type="radio" id="masculino" name="genero" value="masculino">
+    <label for="masculino">Masculino</label>
     <input type="radio" id="feminino" name="genero" value="feminino">
+    <label for="feminino">Feminino</label>
  
     ```
 
