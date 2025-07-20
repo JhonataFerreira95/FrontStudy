@@ -713,3 +713,13 @@ Práticando com a tag `<form>`, criei um formulários simples com um botão para
     <input type="text" id="nome" name="nome" required>
 
     ```
+
+    - Temos o `input` campo de email, seu atríbuto é `type="email"`, esse atríbuto só aceita email, deve conter um @ para ser considerado tipo email. Adicionamos um `id` para nosso atríbuto, um `name` para chamada `back-end` e um `required` para o campo se torna obrigatório.
+
+    ```html
+
+    <input type="email" id="email" name="email" required>
+
+    ```
+
+    -
