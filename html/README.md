@@ -726,14 +726,23 @@ Práticando com a tag `<form>`, criei um formulários simples com um botão para
 
     ```html
 
-    <input type="senha" id="senha" name="senha" required>
+    <input type="password" id="senha" name="senha" required>
 
     ```
 
-    - Temos o `input` para campo de idade, seu atríbuto é `type="number"`, esse atríbuto aceita apenas números, já que seu campo é especifico para idade. Passei para nosso atríbuto `type="number"` um `id` para posteriomente passar em alguma `label`, passei um `name` para chamada no `back-end` e um `required` para o campo se torna obrigatório.
+    - Temos o `input` para campo de idade, seu atríbuto é `type="number"`, esse atríbuto aceita apenas números, já que seu campo é especifico para idade. Passei para nosso atríbuto `type="number"` um `id` para posteriomente passar em alguma `label`, passei um `name` para chamada no `back-end` e um `min` para idade mínima do campo e `max` para idade máxima do campo.
 
     ```html
 
-    <input type="number" id="idade" name="idade" required>
+    <input type="number" id="idade" name="idade" min="18" max="120">
 
+    ```
+
+    - Temos o `input` para campo de marca/desmarca mais conhecido com `radio`, seu atríbuto é `type="radio"`, esse atríbuto tem opção de escolha, no exemplo utilizamos para seleção de sexo. Adicionei um `id` para nosso atríbuto `type="radio"` para que posteriormente passar em alguma `label`, passei um `name` para chamada no `back-end` como passamos o mesmo `name` ambos atríbuto `type="radio"` vai ser o mesmo valor no `back-and`, então sendo uma opção de uma escolha. Adicionamos um atríbuto de `value` para o valor do `input` a ser enviado ao `back-end`.
+
+    ```html
+
+    <input type="radio" id="masculino" name="genero" value="masculino">
+    <input type="radio" id="feminino" name="genero" value="feminino">
+ 
     ```
