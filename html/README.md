@@ -746,3 +746,18 @@ Práticando com a tag `<form>`, criei um formulários simples com um botão para
     <input type="radio" id="feminino" name="genero" value="feminino">
  
     ```
+
+    - Temos o `input` para o campo de seleção múltipla escolha, seu
+    atríbuto é `type="checkbox"`, com mencionamos antes, ele vai variar o seu `name` para chamada `back-end` ou seja, possibilitante várias ecolhas já que seu `name` será diferente. Adicionamos um `id` para utilizar posteriormente uma `label` e um `value` para ser um valor a ser enviado ao `back-end`, adicionei uma `label` com o `for` do atríbuto para cada um chamando os `id` respectivamente.
+
+    ```html
+
+    <input type="chackbox" id="frontend" name="frontend" value="frontend">
+    <label for="frontend">Front-End</label>
+    <input type="chackbox" id="backend" name="backend" value="backend">
+    <label for="backend">Back-End</label>
+    <input type="chackbox" id="mobile" name="mobile" value="mobile">
+    <label for="mobile">Mobile</label>
+    
+
+    ```
