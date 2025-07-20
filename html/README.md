@@ -694,8 +694,5 @@ Práticando com a tag `<form>`, criei um formulários simples com um botão para
 
 ```
 
-
-
-
-
+## Tipos de input no HTML
 
