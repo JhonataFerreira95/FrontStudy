@@ -696,3 +696,20 @@ Práticando com a tag `<form>`, criei um formulários simples com um botão para
 
 ## Tipos de input no HTML
 
+- Aqui irei aborda alguns tipos de `inputs` no `html`
+
+    - Começando com um clássico botão de `submit` ou enviar, seu atríbuto é `type="submit"`, bem intuitivo.
+
+    ```html
+
+    <button type="submit">Enviar</button>
+
+    ```
+
+    - Temos o `input` campo de texto, seu atríbuto é `type="text"`, muito utilizado para coletar informações do usuário.
+
+    ```html
+
+    <button type="text">Enviar</button>
+
+    ```
