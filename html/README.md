@@ -715,11 +715,12 @@ Práticando com a tag `<form>`, criei um formulários simples com um botão para
 
     ```
 
-    - Temos o `input` campo de email, seu atríbuto é `type="email"`, esse atríbuto só aceita email, deve conter um @ para ser considerado tipo email. Adicionamos um `id` para nosso atríbuto, um `name` para chamada `back-end` e um `required` para o campo se torna obrigatório.
+    - Temos o `input` campo de email, seu atríbuto é `type="email"`, esse atríbuto só aceita email, deve conter um @ para ser considerado tipo email. Adicionamos um `id` para nosso atríbuto seja chamado em um `for` de uma `label` se for necessário, um `name` para chamada `back-end` e um `required` para o campo se torna obrigatório.
 
     ```html
 
     <input type="email" id="email" name="email" required>
+    <label for="email">E-mail:</label>
 
     ```
 
