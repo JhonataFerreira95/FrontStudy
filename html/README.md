@@ -722,10 +722,18 @@ Práticando com a tag `<form>`, criei um formulários simples com um botão para
 
     ```
 
-    - Temo o `input` para campo de senha, seu atríbuto é `type="password"`, os valores com atríbuto de senha são ocultos para o usuário, é possível ver clicando no símbolo do olho no canto direito. Passei para nosso atríbuto `type="password"` um `id` para posteriomente passar em alguma `label`, passei um `name` para chamada no `back-end` e um `required` para o campo se torna obrigatório. 
+    - Temos o `input` para campo de senha, seu atríbuto é `type="password"`, os valores com atríbuto de senha são ocultos para o usuário, é possível ver clicando no símbolo do olho no canto direito. Passei para nosso atríbuto `type="password"` um `id` para posteriomente passar em alguma `label`, passei um `name` para chamada no `back-end` e um `required` para o campo se torna obrigatório. 
 
     ```html
 
     <input type="senha" id="senha" name="senha" required>
+
+    ```
+
+    - Temos o `input` para campo de idade, seu atríbuto é `type="number"`, esse atríbuto aceita apenas números, já que seu campo é especifico para idade. Passei para nosso atríbuto `type="number"` um `id` para posteriomente passar em alguma `label`, passei um `name` para chamada no `back-end` e um `required` para o campo se torna obrigatório.
+
+    ```html
+
+    <input type="number" id="idade" name="idade" required>
 
     ```
