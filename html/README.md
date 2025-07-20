@@ -733,11 +733,12 @@ Práticando com a tag `<form>`, criei um formulários simples com um botão para
 
     ```
 
-    - Temos o `input` para campo de idade, seu atríbuto é `type="number"`, esse atríbuto aceita apenas números, já que seu campo é especifico para idade. Passei para nosso atríbuto `type="number"` um `id` para posteriomente passar em alguma `label`, passei um `name` para chamada no `back-end` e um `min` para idade mínima do campo e `max` para idade máxima do campo.
+    - Temos o `input` para campo de idade, seu atríbuto é `type="number"`, esse atríbuto aceita apenas números, já que seu campo é especifico para idade. Passei para nosso atríbuto `type="number"` um `id` para posteriomente passar em alguma `label` em seu `for` caso seja necessário, passei um `name` para chamada no `back-end` e um `min` para idade mínima do campo e `max` para idade máxima do campo.
 
     ```html
 
     <input type="number" id="idade" name="idade" min="18" max="120">
+    <label for="idade">Idade:</label>
 
     ```
 
