@@ -786,3 +786,9 @@ Práticando com a tag `<form>`, criei um formulários simples com um botão para
     <input type="file" id="fotoPerfil" name="fotoPerfil">
 
     ```
+
+## Elementos Especiais no HTML
+
+Creio que esses 2 input extra na minha opinião como acadêmico são importante, são eles `select`, `option` e `textarea`.
+
+- Temos o elemento de `select`
