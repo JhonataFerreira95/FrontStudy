@@ -813,7 +813,7 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
 
 ```
 
-- Temos a elemento de `textarea`, sua tag é `<textarea></textarea>`. Na tag `<textarea>` deixamos a sua tag vázia e a manípulamos juntamente com seus atríbuto `id=""` para identificação para passarmos para algum parâmetro, em nosso exemplo passamo em uma `label`, `name=""` para chamada no `back-end`, `cols=""` para quantidade de colunas na caixa de texto horrizontal, `rows=""` para quantidade de linha iniciais em nossa caixa de texto e o `placeholder=""` uma descrição para o usuário saber para que serve a caixa de texto.
+- Temos a elemento de `textarea`, sua tag é `<textarea></textarea>`na tag `<` ,juntamente com seus atríbuto `id=""` para identificação para passarmos para algum parâmetro, em nosso exemplo passamo em uma `label`, `name=""` para chamada no `back-end`, `cols=""` para quantidade de colunas na caixa de texto, `rows=""` para quantidade de linha em nossa caixa de texto e o `placeholder=""` uma descrição para o usuário saber para que serve a caixa de texto.
 
 ```html
 
