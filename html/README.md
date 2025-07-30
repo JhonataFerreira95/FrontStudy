@@ -791,4 +791,24 @@ Práticando com a tag `<form>`, criei um formulários simples com um botão para
 
 Creio que esses 2 input extra na minha opinião como acadêmico são importante, são eles `select`, `option` e `textarea`.
 
-- Temos o elemento de `select`
+- Temos o elemento de `select` para o campo de caixa de seleções, o sua  tag é `<select name="" id="">texto</select>`, com alguns atríbutos padrão como `name` e `id`, já sabemos que o `id` é usado para passar em algum parâmentro para referência nosso `select`, no caso de exemplo foi a nossa `label`, e o `name` serve para chamada `back-end`.
+
+    - Dentro da nosssa tag `select` temos a tag `option` para as opções dos campos a serem selecionado. A sua tag é `<option value="">texto</option>`, essa tag tem um atríbuto já conhecido, seu atríbuto é o `value` para que o valor da `option` seja enviado para o `back-end`. No exemplo, por default usei um `value=""` vázio com `select disabled`  para desabilitar a opção `selecione uma das opções` para que o usuário não possa selecionar essa opção.
+
+
+```html
+
+<label for="situacao">Situação Atual:</label>
+
+    <select name="situacao" id="situacao">
+
+        <option value="" selected disabled>Selecione uma das opções...</option>
+        <option value="estudante">Estudando para me tornar um programador</option>
+        <option value="estagiario">Atuando como estagiário/trainee</option>
+        <option value="junior">Atuando como desenvolvedor júnior</option>
+        <option value="pleno">Atuando como desenvolvedor pleno</option>
+        <option value="senior">Atuando como desenvolvedor sênior</option>
+
+    </select>
+
+```
