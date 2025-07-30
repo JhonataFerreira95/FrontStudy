@@ -793,7 +793,7 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
 
 - Temos o elemento de `select` para o campo de caixa de seleções, o sua  tag é `<select name="" id="">texto</select>`, com alguns atríbutos padrão como `name` e `id`, já sabemos que o `id` é usado para passar em algum parâmentro para referência nosso `select`, no caso de exemplo foi a nossa `label`, e o `name` serve para chamada `back-end`.
 
-    - Dentro da nosssa tag `select` temos a tag `option` para as opções dos campos a serem selecionado. A sua tag é `<option value="">texto</option>`, essa tag tem um atríbuto já conhecido, seu atríbuto é o `value` para que o valor da `option` seja enviado para o `back-end`. No exemplo, por default usei um `value=""` vázio com `select disabled`  para desabilitar a opção `selecione uma das opções` para que o usuário não possa selecionar essa opção.
+    - Dentro da nosssa tag `select` temos a tag `option` para as opções dos campos a serem selecionado. A sua tag é `<option value="">texto</option>`, essa tag tem um atríbuto já conhecido, seu atríbuto é o `value` para que o valor da `option` seja enviado para o `back-end`. No exemplo, por default usei um `value=""` vázio com `disabled` para desabilitar a opção `selecione uma das opções` para que o usuário não possa selecionar essa opção, tbm adc um atríbuto de `selected` forçando o usuário a selecionar algo, assim fica mais intuitivo com o `selected disabled`.
 
 
 ```html
