@@ -812,3 +812,13 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
     </select>
 
 ```
+
+- Temos a elemento de `textarea`, sua tag é `<textarea></textarea>`. Na tag `<textarea>` deixamos a sua tag vázia e a manípulamos juntamente com seus atríbuto `id=""` para identificação para passarmos para algum parâmetro, em nosso exemplo passamo em uma `label`, `name=""` para chamada no `back-end`, `cols=""` para quantidade de colunas na caixa de texto horrizontal, `rows=""` para quantidade de linha iniciais em nossa caixa de texto e o `placeholder=""` uma descrição para o usuário saber para que serve a caixa de texto.
+
+```html
+
+<label for="sobre">Sobre Mim:</label>
+
+<textarea name="sobre" id="sobre" cols="40" rows="6" placeholder="Fale um pouco sobre você..."></textarea>
+
+```
