@@ -822,3 +822,5 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
 <textarea name="sobre" id="sobre" cols="40" rows="6" placeholder="Fale um pouco sobre você..."></textarea>
 
 ```
+
+## Recursos Modernos do HTML 5
