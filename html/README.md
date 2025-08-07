@@ -824,3 +824,39 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
 ```
 
 ## Elementos Semânticos
+
+- A tag respónsvel pelo cabeçalho da página é o `<header>` que na tradução significa 'cabeça', serve para definir onde fica o topo da página, onde se encontra o título da página, a barra de navegaçao entre outros.
+
+```html
+
+<header>
+
+    <h1>Tags Semânticas</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+</header>
+
+```
+
+- A tag respónsavel pela navegação da página é a `<nav>` que na tradução significa 'navegação', utilizada para definir a navegação rápida dentro ou fora da página.
+
+```html
+
+<nav>
+    <ul>
+    <li><a href="#inicio">Início</a></li>
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+
+```
+
+- 
