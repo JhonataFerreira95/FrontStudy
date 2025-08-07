@@ -859,4 +859,37 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
 
 ```
 
-- 
+- A tag respónsavel por inglobar a estrutura princípal da página é a `<main>`, utilizada para definir onde vai se encontra a estrutura princípal da página e seu conteúdo.
+
+```html
+
+ <main>
+        <section id="inicio">
+            <h2>Início</h2>
+            <p>Bem-vindo à nossa página de exemplo!</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <article>
+                <h3>História</h3>
+                <p>Aqui contamos a história da nossa empresa.</p>
+            </article>
+            <article>
+                <h3>Missão</h3>
+                <p>Nossa missão é fornecer produtos de qualidade para nossos clientes.</p>
+            </article>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <address>
+                <p>Entre em contato conosco:</p>
+                <p>Endereço: Rua das Flores, 123</p>
+                <p>Email: contato@exemplo.com</p>
+                <p>Telefone: (11) 1234-5678</p>
+            </address>
+        </section>
+    </main>
+
+```
