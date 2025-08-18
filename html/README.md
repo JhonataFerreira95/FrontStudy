@@ -943,3 +943,12 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
 
 ```
 
+- A tag respónsavel pelo rodapé da página é o `<footer>`, essa tag é utilizada para o rodapé da página e seguir a sintaxe semântica do `html`.
+
+```html
+
+<footer>
+    <p>&copy; 2023 OneBitCode - Tags Semânticas</p>
+</footer>
+
+```
