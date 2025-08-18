@@ -952,3 +952,17 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
 </footer>
 
 ```
+
+## Elementos WAI-WARIA
+
+- O que é WAI-WARIA? São atríbuto de acessibilidade no `html`, para inclusão digital e acesso  igualitário a informações e serviços na web.
+
+- Os quatro pilares segundo a WCAG(web content acessibility guidelines)
+
+    - Perceptível: Garantir que os conteúdos sejam apresentados de maneira clara e adaptável, permitindo a personalização.
+
+    - Operável: Facilitar interação e a navegação, tomando a web utilizável por diversos dispositivos e tecnologias assistivas.
+
+    - Compreensível: torna a informação e o funcionamento dos elementos claros e fáceis de entender.
+    
+    - Robusto: Criar conteúdos que possam ser interpretados de forma consistente por uma variedade de agentes do usuário.
