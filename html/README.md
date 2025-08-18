@@ -859,7 +859,7 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
 
 ```
 
-- A tag respónsavel por inglobar a estrutura princípal da página é a `<main>`, utilizada para definir onde vai se encontra a estrutura princípal da página e seu conteúdo.
+- A tag respónsavel por inglobar a estrutura principal da página é a `<main>`, utilizada para definir onde vai se encontra a estrutura principal da página e seu conteúdo.
 
 ```html
 
@@ -893,3 +893,53 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
     </main>
 
 ```
+
+- A tag respónsavel pela seções da página principal é a `<section>`, para uma melhor separação de seções dentro da nossa estrutura principal ou fora dela.
+
+```html
+
+<section id="inicio">
+    <h2>Início</h2>
+    <p>Bem-vindo à nossa página de exemplo!</p>
+</section>
+
+```
+
+- A tag respónsavel por todo conteúdo auto-contido `<article>`, resumo de um conteúdo para tag mais interna. Vamos supor que você terá uma `section` ok? Dentro dessa `section` você normalmente utiliza uma `div`, no lugar dessa `div` mais interna você utilizaria o `article`.
+
+```html
+
+<section id="sobre">
+
+    <h2>Sobre</h2>
+
+    <article>
+        <h3>História</h3>
+        <p>Aqui contamos a história da nossa empresa.</p>
+    </article>
+
+    <article>
+        <h3>Missão</h3>
+        <p>Nossa missão é fornecer produtos de qualidade para nossos clientes.</p>
+    </article>
+
+</section>
+
+```
+
+- A tag respónsavel pelo contatos da página é a `<address>`, todo meio de contado como email, telefone, endereço e entre outros é feito com a tag `<address>`.
+
+```html
+
+<section id="contato">
+    <h2>Contato</h2>
+        <address>
+            <p>Entre em contato conosco:</p>
+            <p>Endereço: Rua das Flores, 123</p>
+            <p>Email: contato@exemplo.com</p>
+            <p>Telefone: (11) 1234-5678</p>
+        </address>
+</section>
+
+```
+
