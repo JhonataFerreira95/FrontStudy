@@ -964,5 +964,25 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
     - Operável: Facilitar interação e a navegação, tomando a web utilizável por diversos dispositivos e tecnologias assistivas.
 
     - Compreensível: torna a informação e o funcionamento dos elementos claros e fáceis de entender.
-    
+
     - Robusto: Criar conteúdos que possam ser interpretados de forma consistente por uma variedade de agentes do usuário.
+
+- WAI-WARIA? 
+
+    - Tem como objetivo estender as capacidades dos elmentos `html` para tona-lós mais acessíveis e interativos.
+
+    - Adiciona o suporte a tecnologias assistivas como leitores de tela, por meio de atributos `ARIA`
+
+    - Alguns elementos práticos
+
+        - Toorna as imagens acessíveis adicionando um texto alternativo  (atríbuto `alt`) para descrever a imagem.
+
+        - Usar corretamente os títulos (`h1`, `h2`, `h3`, etc) para estruturar o conteúdo e facilitar a navegação para leitores de tela
+
+        - Cria formulários acessíveis usando rótulos (elemento `label`) associados aos inputs do formulário
+
+        - Usar cores para garantir constraste suficiente e permitir a distinção de elementos por usuários com deficiência visual.
+
+        - Tornar links e botões claros e descritivos para facilitar a compreensão do conteúdo e não usar ícones sem um rótulo.
+
+        - Utilização dos atríbutos `label`, `role`, `state` e `property` do WAI-WARIA para melhorar a semântica e comportamento de elementos.
