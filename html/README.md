@@ -1032,3 +1032,16 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
      </div>
 
     ```
+
+    - Próximo atríbuto que irei aborda é o atríbuto `aria-required` que é utilizado para informa as tecnologia assistivas que esse é um campo obrigátorio. Irei utilizar um `input` dentro de forma para o exemplo.
+
+    ```html
+
+    <form action="#" method="post">
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required aria-required="true">
+        </div>
+    </form>
+
+    ```
