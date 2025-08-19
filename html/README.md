@@ -1020,3 +1020,15 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
     </div>
 
     ```
+
+    - Todos os atríuto mencionando anteriormente como `role`, `aria-labelledby` e `aria-describedby` podem ser atribuído a algum `id` que você deseja, por exemplo, dentro da nossa `div` temos tags como `h2` e `p`, posso atribuír `id` para ambas as tagas, onde eu pego a tag do `aria-labelledby` para o `h2` já que o conteúdo príncipal da nossa `div`, a tag do `aria-describedby` irei atribuír ao `p` já uqe é uma tag informativa e descritiva da nossa `div`.
+
+    ```html
+
+    <!-- caixa de informação com atributos ARIA -->
+    <div role="alerta" aria-labelledby="info_heading" aria-describedby="info_content">
+        <h2 id="infoHeading">importante(leia)</h2>
+        <p id="infoContent">essa é uma mensagem informativa para os usuários.</p>
+     </div>
+
+    ```
