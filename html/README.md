@@ -1058,3 +1058,13 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
     </form>
 
     ```
+
+    - Próimo que irei aborda é o atríbuto `aria-live` serva para informar sobre atualizações de alguma interação na página. Exemplo, se o usuário digitar em um `input` e o mesmo der o resultado como `false` ou `erro`, esse atríbuto é responsável por informa o usuário.
+
+    ```html
+
+    <div role="status" aria-live="polite">
+      <p>Mensagem enviada com sucesso!</p>
+    </div>
+
+    ```
