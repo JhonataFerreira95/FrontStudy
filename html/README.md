@@ -989,7 +989,7 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
 
 - Atríbutos WAI-WARIA
 
-    - Vamos começar pelo atríbuto `role` que representa um atribuição a qualquer elemento desejado. Pense no `role=""` com uma espécie de delegador de cargos, pois sua tradução literal é 'cargo'. Usarei como exemplo uma `div` para essa prática.
+    - Vamos começar pelo atríbuto `<role>` que representa um atribuição a qualquer elemento desejado. Pense no `role=""` com uma espécie de delegador de cargos, pois sua tradução literal é 'cargo'. Usarei como exemplo uma `div` para essa prática.
 
     ```html
 
@@ -1000,7 +1000,7 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
 
     ```
 
-    - Próximo atríbuto que irei aborda é o atríbuto `aria-labelledby` que serve basicamente pra rotular um elemento no `html` para acessibilidade de acordo com a WAI-WARIA. Irei prosseguir com os exemplo, tendo como base o elemento a cima e irei adicionando os atríbutos e explicando.
+    - Próximo atríbuto que irei aborda é o atríbuto `<aria-labelledby>` que serve basicamente pra rotular um elemento no `html` para acessibilidade de acordo com a WAI-WARIA. Irei prosseguir com os exemplo, tendo como base o elemento a cima e irei adicionando os atríbutos e explicando.
 
     ```html
 
@@ -1010,7 +1010,7 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
     </div>
 
     ```
-    - Próximo atríbuto que irei aborda é o atríbuto `aria-describedby` que serva basicamente para descrição ou descrever o objeto desejado, assim tornando o `html` acessível para todos.
+    - Próximo atríbuto que irei aborda é o atríbuto `<aria-describedby>` que serva basicamente para descrição ou descrever o objeto desejado, assim tornando o `html` acessível para todos.
 
     ```html
 
@@ -1021,7 +1021,7 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
 
     ```
 
-    - Todos os atríuto mencionando anteriormente como `role`, `aria-labelledby` e `aria-describedby` podem ser atribuído a algum `id` que você deseja, por exemplo, dentro da nossa `div` temos tags como `h2` e `p`, posso atribuír `id` para ambas as tagas, onde eu pego a tag do `aria-labelledby` para o `h2` já que o conteúdo príncipal da nossa `div`, a tag do `aria-describedby` irei atribuír ao `p` já uqe é uma tag informativa e descritiva da nossa `div`.
+    - Todos os atríuto mencionando anteriormente como `<role>`, `<aria-labelledby>` e `<aria-describedby>` podem ser atribuído a algum `id` que você deseja, por exemplo, dentro da nossa `div` temos tags como `h2` e `p`, posso atribuír `id` para ambas as tagas, onde eu pego a tag do `aria-labelledby` para o `h2` já que o conteúdo príncipal da nossa `div`, a tag do `aria-describedby` irei atribuír ao `p` já uqe é uma tag informativa e descritiva da nossa `div`.
 
     ```html
 
@@ -1033,7 +1033,7 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
 
     ```
 
-    - Próximo atríbuto que irei aborda é o atríbuto `aria-required` que é utilizado para informa as tecnologia assistivas que esse é um campo obrigátorio. Irei utilizar um `input` dentro de forma para o exemplo.
+    - Próximo atríbuto que irei aborda é o atríbuto `<aria-required>` que é utilizado para informa as tecnologia assistivas que esse é um campo obrigátorio. Irei utilizar um `input` dentro de forma para o exemplo.
 
     ```html
 
@@ -1046,7 +1046,7 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
 
     ```
 
-    - Próximo atríbuto que irei aborda é o atríbuto `aria-label` que basicamente faz o mesmo papel do `label`, ou seja, rotular algo.
+    - Próximo atríbuto que irei aborda é o atríbuto `<aria-label>` que basicamente faz o mesmo papel do `label`, ou seja, rotular algo.
 
     ```html
 
@@ -1059,7 +1059,7 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
 
     ```
 
-    - Próimo que irei aborda é o atríbuto `aria-live` serva para informar sobre atualizações de alguma interação na página. Exemplo, se o usuário digitar em um `input` e o mesmo der o resultado como `false` ou `erro`, esse atríbuto é responsável por informa o usuário.
+    - Próimo que irei aborda é o atríbuto `<aria-live>` serva para informar sobre atualizações de alguma interação na página. Exemplo, se o usuário digitar em um `input` e o mesmo der o resultado como `false` ou `erro`, esse atríbuto é responsável por informa o usuário.
 
     ```html
 
