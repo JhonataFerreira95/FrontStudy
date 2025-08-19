@@ -1045,3 +1045,16 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
     </form>
 
     ```
+
+    - Próximo atríbuto que irei aborda é o atríbuto `aria-label` que basicamente faz o mesmo papel do `label`, ou seja, rotular algo.
+
+    ```html
+
+    <form action="#" method="post">
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required aria-required="true" aria-label="Campo de nome">
+        </div>
+    </form>
+
+    ```
