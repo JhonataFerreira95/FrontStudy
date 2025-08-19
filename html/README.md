@@ -953,7 +953,7 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
 
 ```
 
-## Elementos WAI-WARIA
+## Elementos e Atríbutos WAI-WARIA
 
 - O que é WAI-WARIA? São atríbuto de acessibilidade no `html`, para inclusão digital e acesso  igualitário a informações e serviços na web.
 
@@ -986,3 +986,18 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
         - Tornar links e botões claros e descritivos para facilitar a compreensão do conteúdo e não usar ícones sem um rótulo.
 
         - Utilização dos atríbutos `label`, `role`, `state` e `property` do WAI-WARIA para melhorar a semântica e comportamento de elementos.
+
+- Atríbutos WAI-WARIA
+
+    - Vamos começa pelo atríbuto `role` que representa um atribuição a qualquer elemento desejado. Pense no `role=""` com uma espécie de delegador de cargos, pois sua tradução literal é 'cargo'. Usarei como exemplo uma `div` para essa prática.
+
+    ```html
+
+    <div role="alerta">
+        <h2>importante(leia)</h2>
+        <p>essa mensagem é importante</p>
+    </div>
+
+    ```
+
+    
