@@ -1010,4 +1010,13 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
     </div>
 
     ```
-    
+    - Próximo atríbuto que irei aborda é o atríbuto `aria-describedby` que serva basicamente para descrição ou descrever o objeto desejado, assim tornando o `html` acessível para todos.
+
+    ```html
+
+    <div role="alerta" aria-labelledby="info_heading" aria-describedby="info_content">
+        <h2>importante(leia)</h2>
+        <p>essa é uma mensagem informativa para os usuários.</p>
+    </div>
+
+    ```
