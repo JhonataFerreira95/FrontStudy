@@ -989,15 +989,25 @@ Creio que esses 2 input extra na minha opinião como acadêmico são importante,
 
 - Atríbutos WAI-WARIA
 
-    - Vamos começa pelo atríbuto `role` que representa um atribuição a qualquer elemento desejado. Pense no `role=""` com uma espécie de delegador de cargos, pois sua tradução literal é 'cargo'. Usarei como exemplo uma `div` para essa prática.
+    - Vamos começar pelo atríbuto `role` que representa um atribuição a qualquer elemento desejado. Pense no `role=""` com uma espécie de delegador de cargos, pois sua tradução literal é 'cargo'. Usarei como exemplo uma `div` para essa prática.
 
     ```html
 
     <div role="alerta">
         <h2>importante(leia)</h2>
-        <p>essa mensagem é importante</p>
+        <p>essa é uma mensagem informativa para os usuários.</p>
     </div>
 
     ```
 
+    - Próximo atríbuto que irei aborda é o atríbuto `aria-labelledby` que serve basicamente pra rotular um elemento no `html` para acessibilidade de acordo com a WAI-WARIA. Irei prosseguir com os exemplo, tendo como base o elemento a cima e irei adicionando os atríbutos e explicando.
+
+    ```html
+
+    <div role="alerta" aria-labelledby="info_heading">
+        <h2>importante(leia)</h2>
+        <p>essa é uma mensagem informativa para os usuários.</p>
+    </div>
+
+    ```
     
