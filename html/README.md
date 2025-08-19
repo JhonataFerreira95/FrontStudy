@@ -4,11 +4,11 @@
 
 00. [O que é HTML e como usá-lo](#o-que-é-o-html-e-como-usá-lo)
 01. [Principais elementos e tags HTML](#estrutura-de-uma-página-web)
-02. [Lista e tabelas]()
-03. [Formulários e seus componentes]()
-04. [Recursos do HTML 5]()
-05. [Semântica e acessibilidade]()
-06. [Boa prática e otimizações]()
+02. [Lista e tabelas](#criação-de-tabelas-no-html)
+03. [Formulários e seus componentes](#formulários-no-html)
+04. [Tipos de input no HTML](#tipos-de-input-no-html)
+05. [Semântica e acessibilidade](#elementos-semânticos)
+06. [WAI-WARIA](#elementos-e-atríbutos-wai-waria)
 
 ## O que é o HTML e como usá-lo
 
