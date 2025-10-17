@@ -3,7 +3,7 @@
 ## índices
 
 00. [O que é o CSS3 e como usá-lo](#documentação-sobre-css3)
-01. [Cores e estilos básicos]()
+01. [Cores e estilos básicos](#corres-e-estilos-básicos)
 02. [Posicionamento]()
 03. [Seletores]()
 04. [Tipografia]()
@@ -83,3 +83,53 @@
                 }
 
             ```
+
+## Corres e estilos básicos
+
+- Como foi visto ateriormente, existem 2 formas de utilizar o `css` no `html`
+
+    - 1 Utilizando via a tag `link`
+    - 2 Utilizando via atríbuto `style`
+
+- A forma mais comum é criando um arquivo serpado para utiização do código `css` atráves da tag `link` apontando para o mesmo.
+
+    - Exemplo:
+
+        ```css
+
+            <link rel="stylesheet" href="../001_comeco.css"> <!-- Linkando o ccs por link no arquivo-->
+        
+        ```
+    
+    - Utilizando o atríbuto `href=""` para apontar ao destino do arquivo `css` de forma absoluta.
+
+### Cores diretamente no arquivo `css`
+
+- Vale ressaltar que o `css` é em castaca, então a última propriedade definida para determinada tag vai ser a alterada.
+
+    - Exemplo na prática:
+
+        ```cs 
+
+            p{
+                color: white;
+            }
+
+            p{
+                color: blue;
+            }
+
+            p{
+                color: red;
+            }
+        
+        ```
+
+    - Resultado:
+
+        - Aqui a cor definida é a cor `red`, já que ela é a última a ser definida, como é em forma de cascata a última sempre será a definida, é um padrão no `css`.
+
+### DevTools
+
+- 
+
