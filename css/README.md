@@ -131,5 +131,57 @@
 
 ### DevTools
 
-- 
+- Irei aborda agora sobre nossa ferramente de desenvolvedor ou `DevTools`.
+
+- Utilizando o `DevTools` podemos mudar o estilo da página e os seus elementos porém de forma temporária, para isso normalmente visualizamos isso na aba do `DevTools` em `Elements` e `Styles`.
+
+    - Exemplo na prática:
+
+        ![DevTools](../css/assets/imagens/DevTools.png)
+
+- Posso altera isso de forma temporária, basta selecionar a tag desejada no `Elements` e alterar o estilo dela no `Styles`, para alterar o `html` é no `Elements` e no `css` no `Estyles`.
+
+    - Exemplo na prática `Elements`:
+
+        ![Elements](../css/assets/imagens/ElementsTagP.png)
+
+    - Exemplo na prática `Styles`:
+
+        ![Styles](../css/assets/imagens/StylesTagP.png)
+
+    - Resultado:
+
+        - Como já foi mencionado, toda manipulação feita aqui é reversível a partir do momento que você atualiza a página.
+
+- Também podemos ver todas as própriedade que estão sendo aplicadas em nosso `css` através do `computed`.
+
+    - Exemplo na prática:
+
+        ![Computed](../css/assets/imagens/Computed.png)
+
+    - Resultado:
+
+        - Observa-se que selecionamos novamente a tag `p` e ali temos todas as suas propriedades e seu tamanho.
+
+        - margin, border, padding
+
+            ![marginbordepadding](../css/assets/imagens/MarginBorderPadding.png)
+
+        - margin:
+
+            - Todas as tags possuem `margin`, que nada mais é que o espaçamento entre as laterais, superior e inferior ao elemento.
+
+        - border:
+
+            - A propriedade `border` define uma borda ao redor de um elemento `html`. 
+        
+        - padding: 
+
+            - O `padding` é o espaço interno entre o conteúdo de um elemento e sua borda.
+
+        - With e hight:
+
+            - Nada mais é que a altura x largura, representada pelo block azul no centro por `Largura-->452x18<--Altura`.
+
+## Cores
 
