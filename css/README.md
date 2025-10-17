@@ -66,3 +66,20 @@
         h1{color: red;}
 
     ```
+
+    - `h1` é o seletor, ou seja, o termo que seleciona qual parte do documento terá estilo.
+
+    - As chaves `{}` delimitam o bloco de declarações, ou seja, onde começam e terminam os estilos a serem aplicanos no(s) elemento(s) selecionado(s).
+
+    - A declaração `color:red;` define um estilo. Declaração são sempre compostas por duas partes, a `proriedade` e o `valor`, separadas por vírgula, e finalizadas por um ponto e vírgula.
+
+        - Exemplo:
+
+            ```css
+
+                seletor{
+                    proriedade: valor;
+                    outra-proriedade: valor;
+                }
+
+            ```
