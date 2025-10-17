@@ -15,4 +15,22 @@
 
 #### O que é CSS?
 
-- A sigla `CSS` significa ``
+- A sigla `css` significa `Cascading Styles Sheets` ou folhas de estilo em cascata.
+
+- A linaguagem é usada para definir os estilos em um documento `html
+
+- Pode ser incluido no documento de 3 modos:
+
+    - 
+
+    - 
+
+    -
+
+- Estrutur de um código em `css` usando como exemplo um o código:
+
+    ```css
+
+        h1{color: red;}
+
+    ```
