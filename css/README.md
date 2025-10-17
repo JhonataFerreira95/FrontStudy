@@ -15,4 +15,4 @@
 
 #### O que é CSS?
 
-- A singal `CSS` significa ``
+- A sigla `CSS` significa ``
