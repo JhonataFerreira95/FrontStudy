@@ -57,9 +57,9 @@
 
         ```
 
-        - Adicionamos a tag `link` para linkar ao nosso `html` e apontamos para o nosso arquivo css com o atríbuto `href=""`, e o atríbuto `rel=stylesheet` informa ao navegador que é um arquivo `css`.
+        - Adicionamos a tag `link` para linkar ao nosso `html` e apontamos para o nosso arquivo css com o atríbuto `href=""`, e o atríbuto `rel=stylesheet` informa ao navegador que é uma folha de estilo `css`.
 
-- Estrutur de um código em `css` usando como exemplo um o código:
+- Estrutura de um código em `css` usando como exemplo um o código:
 
     ```css
 
