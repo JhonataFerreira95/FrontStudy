@@ -219,7 +219,7 @@
 
         - Resultado:
 
-            - Vale resltar que os números presentes no `rgb` vão do 0 ao 255.
+            - Vale resltar que os números presentes no `rgb` vão do 0 ao 255, e cada valr definido dentro do `rgb`, vai ser o equilibrio de cada cor, em nosso exemplo temos `255, 0, 0`, sendo `255=red` a tonalidade máxima de vermelho, `0=green` a tonalidade zerada de verde e `0=blue` a tonalidade zerada de azul.  
 
     - Códigos hexadecimais:
 
