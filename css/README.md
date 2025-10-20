@@ -217,6 +217,10 @@
 
             ```
 
+        - Resultado:
+
+            - Vale resltar que os números presentes no `rgb` vão do 0 ao 255.
+
     - Códigos hexadecimais:
 
     - Códigos HLS:
