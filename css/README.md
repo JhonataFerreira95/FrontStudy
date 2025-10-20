@@ -202,8 +202,24 @@
     - Não recomendo, pois não há uma garantia de pradronização das cores, por quê? Por que você trabalha com nome de cores no `css` ele vai utlizar a definição do navegador para a cor que foi determinada pelo nome, que no exemplo foi o `red`.
 
 - Usando os código das cores
+    
+   - Forma recomendada, pois é específica a cor exata a ser usada de forma precisa.
 
-    -
+    - Códigos RGB:
+
+        - Utiliza  a função `rgb()` do `css` para processar uma cor a partir dos valores `red`, `green` e `blue` == `rgb`.
+
+        - Exemplo na prática:
+
+            ```css
+
+                h1{color: rgb(255, 0, 0);}
+
+            ```
+
+    - Códigos hexadecimais:
+
+    - Códigos HLS:
 
 
 
