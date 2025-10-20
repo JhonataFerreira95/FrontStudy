@@ -185,3 +185,25 @@
 
 ## Cores
 
+- No `css` podemos trabalhar com cores em vários formatos:
+
+- Usando nome de cores.
+
+    - Podemos utilizar cores no `css` referênciando pelos nomes.
+
+    - Exemplo na prática:
+
+        ```css
+
+            h1 {color: red;}
+        
+        ```
+    
+    - Não recomendo, pois não há uma garantia de pradronização das cores, por quê? Por que você trabalha com nome de cores no `css` ele vai utlizar a definição do navegador para a cor que foi determinada pelo nome, que no exemplo foi o `red`.
+
+- Usando os código das cores
+
+    -
+
+
+
