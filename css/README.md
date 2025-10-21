@@ -223,7 +223,23 @@
 
     - Códigos hexadecimais:
 
-        - 
+        - Utiliza a numeração hexadecimal para especificar cores em formato `rgb` de forma abreviada.
+
+        - O formato usado é o `#RRGGBB`, e os valores são convertidos de hexadecimal para decimal.
+
+        - Números hexadecimais representam os valores decimais de 0 a 15, porém os algarismo `0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E e F`.
+
+        - Exemplo na prática:
+
+            ```css
+
+                h1{color: #FF0000;}
+            
+            ```
+        
+        - Resultado:
+        
+            - Onde: `FF=255, 00=0 e 00=0`
 
     - Códigos HLS:
 
