@@ -239,9 +239,28 @@
         
         - Resultado:
         
-            - Onde: `FF=255, 00=0 e 00=0`
+           - Onde: `FF=255, 00=0 e 00=0`
 
     - Códigos HLS:
 
+        - Formato diferente, porém muitoútil para manipulação de cores.
+
+        - Utiliza o esquema de `tonalidade`, `saturação` e `brilho`, ou `Hue`, `Saturation` e `Lightness`, para definir uma cor.
+
+        - Assim como no `rgb`, o `css` também possui uma função `hsl()` 
+
+        - Exemplo na prática:
+
+            ```css
+
+                h1{color: hsl(0, 100%, 50%);}
+                
+            ```
+        - Resultado:
+
+            - Aqui no exempo usamos mais a `satuaração em 100%`, `50% no brilho` e `0% na tonalidade`.
+            
+
+        
 
 
