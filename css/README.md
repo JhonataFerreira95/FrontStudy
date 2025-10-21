@@ -5,8 +5,8 @@
 00. [O que é o CSS3 e como usá-lo](#documentação-sobre-css3)
 01. [Cores e estilos básicos](#corres-e-estilos-básicos)
 02. [DevTools](#devtools)
-03. [Seletores]()
-04. [Tipografia]()
+03. [Cores](#cores)
+04. [Background e Border](#background-e-border)
 05. [Unidade de medida]()
 06. [Especificidade]()
 
@@ -260,6 +260,7 @@
 
             - Aqui no exempo usamos mais a `satuaração em 100%`, `50% no brilho` e `0% na tonalidade`.
 
+## Background e Border
 
         
 
