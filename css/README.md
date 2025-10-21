@@ -4,7 +4,7 @@
 
 00. [O que é o CSS3 e como usá-lo](#documentação-sobre-css3)
 01. [Cores e estilos básicos](#corres-e-estilos-básicos)
-02. [Posicionamento]()
+02. [DevTools](#devtools)
 03. [Seletores]()
 04. [Tipografia]()
 05. [Unidade de medida]()
@@ -259,7 +259,7 @@
         - Resultado:
 
             - Aqui no exempo usamos mais a `satuaração em 100%`, `50% no brilho` e `0% na tonalidade`.
-            
+
 
         
 
