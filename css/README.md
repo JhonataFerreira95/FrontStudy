@@ -283,36 +283,41 @@
 
         - Sabemos que o `color` muda a cor dos nomes, enquanto o `background` muda o background de fundo de uma tag definida. Vale resltar que o `backgroud` funciona tanto com tags `html` quando com atríbutos, só que com atríbutos só irá funciona caso seja definido um `id` para o atríbuto desejado.
 
-- Trabalhando com `backgroud` e função `rgb`:
+    - Trabalhando com `backgroud` e função `rgb`:
 
-    - Podemos definir um padrão de `red`, `gree` e `blue` no nosso `background`, fica a seu critério.
+        - Podemos definir um padrão de `red`, `gree` e `blue` no nosso `background`, fica a seu critério.
 
-    - Exemplo na prática:
+        - Exemplo na prática:
 
-        ```css
-                
-        body{
-            background-color: rgb(61, 61, 203);
-        }
-
-        ```
-
-- Trabalhando com `background` e função `url` para imagens.
-
-    - Podemo também utilizar o `background` com imagem por link ou caminho relativo ou absoluto.
-
-    - Exemplo na prática:
-
-        ```css
-
+            ```css
+                    
             body{
-                background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg");
+                background-color: rgb(61, 61, 203);
             }
 
             ```
-    
-    - Resultado:
 
-        - Aqui utilizamos o `background-image` para definir que utilizariamos uma imagem como `background` porém o `css` não entende se apenas colocamos o link da imagem em `strig`, é necessário utilizar a função `url()` e depois abrir uma `strig` e por o link da imagem lá para que funcione.
+    - Trabalhando com `background` e função `url` para imagens.
+
+        - Podemo também utilizar o `background` com imagem por link ou caminho relativo ou absoluto.
+
+        - Exemplo na prática:
+
+            ```css
+
+                body{
+                    background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg");
+                    background-size: cover;
+                }
+
+                ```
+        
+        - Resultado:
+
+            - Aqui utilizamos o `background-image` para definir que utilizariamos uma imagem como `background` porém o `css` não entende se apenas colocamos o link da imagem em `strig`, é necessário utilizar a função `url()` e depois abrir uma `strig` e por o link da imagem lá para que funcione.
+
+            - Também utilizamos a propriedade `background-size` para definição do tamanho da imagem de fundo e a função `cover` que é para cobri todo o fundo da página.
+
+- Border
 
 
