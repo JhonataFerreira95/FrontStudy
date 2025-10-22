@@ -345,7 +345,35 @@
         
         - Existem vários tipo de borda, aqui citei só um exemplo, fica a vontade para ir ao `MDN` para pesquisa sobre mais bordas ou no próprio `vscode` é possível ver várias.
 
+- Estilizando uma `div` com `class=""`
 
+    - Aqui irei passar a estilizar um `div` com atríbuto `class` bem rápido.
+
+    - Exemplo:
+
+        ```css
+
+            .box1{
+                background-color: #169436;
+                border: 4px solid #1c1a1d;
+                height: 64px;
+                width: 320px;
+            }
+
+        ```
+
+    - Resultado:
+
+        - Aqui utilizamos o `.box` para referência uma `class` no `htlm`, utilizamos o `background-color` para definir o fundo, usei a própriedade `border` para definir o tamanho da borda que é `4px` o tipo que é `solid` e sua cor que é `#1c1a1d`, definimos sua altura com `height` e sua largura com `width`.
+
+    - Aqui irei estililizar outra `div` com atríbuto `class`.
+
+    - Exemplo: 
+
+        ```css
+
+
+        ```
 
 
 
