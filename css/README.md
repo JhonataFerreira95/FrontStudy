@@ -385,6 +385,24 @@
         - Aqui utilizamos o `.box` para referência uma `class` no `htlm`, utilizamos o `background-image` para definir o tipo de fundo e `linear-gradient` para definir que o o fundo seja gradiente, utilizei o `linear-gradient(to left, #2c2c2c, #f64348` definindo o gradiente da esquerda para direito e suas cores que foi `#2c2c2c` e `#f64348`, após definir o tamanho de altura e largura que foi ` height: 64px` e `width: 320px`.
 
     
+    - Aqui irei estilizar outra `div` com atríbuto `class`.
 
+    - Exemplo:
+
+        ```css
+
+            .box3{
+                background-color: #0077ff;
+                border: 2px solid #1c1a1d;
+                border-radius: 5px;
+                height: 64px;
+                width: 320px;
+            }
+
+        ```
+
+    - Resultado:
+
+        - - Aqui utilizamos o `.box` para referência uma `class` no `htlm`, utilizamos o `background-color` para definir o fundo, usei a própriedade `border` para definir o tamanho da borda que é `2px` o tipo que é `solid` e sua cor que é `#1c1a1d`, e para deixamos a borda arendondada utilizamos a propriedade `border-radius` com o pixel em 5 `5px` após isso definimos o tamanho de largura e altura que foi `height: 64px;` e `width: 320px;`.
 
 
