@@ -8,3 +8,10 @@ header {
     background-color: #000;
     color: #ffffff;
 }
+
+main {
+    background: #e5e5e5;
+    border-width: 4px;
+    border-color: #1c1a1d;
+    border-style: solid;
+}

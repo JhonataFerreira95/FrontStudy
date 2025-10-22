@@ -320,4 +320,32 @@
 
 - Border
 
+    - A propriedade `border` é utilizada para definir a borda de um elemento(tag ou atríbutos com `id`) no `html`, geralmente utilizada para aplicar no elemento para ter as suas características alteradas como o seu tamanho, a sua cor ou seu estilo.
+
+    - Propriedades do `border`
+
+        - Começando com o `border-width` que é a largura da borda.
+
+        - Também temos o `borde-color` para definir a cor da nossa borda.
+
+        - E para que a nossas propriedade `border` funcione precisamos adicionar o tipo de borda que vamos ter, aqui irei utilizar o `borde-style` com a função `solid`.
+
+        - Resultado:
+
+            ```css
+
+                main {
+                    background: #e5e5e5;
+                    border-width: 4px;
+                    border-color: #1c1a1d;
+                    border-style: solid;
+                }
+
+            ```
+        
+        - Existem vários tipo de borda, aqui citei só um exemplo, fica a vontade para ir ao `MDN` para pesquisa sobre mais bordas ou no próprio `vscode` é possível ver várias.
+
+
+
+
 
