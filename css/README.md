@@ -262,6 +262,15 @@
 
 ## Background e Border
 
-        
+- Aqui irei aborda um pouco sobre a propriedade no `css` chamada `background` no primeiro momento, em seguida irei da uma atenção a propriedade `border`.
+
+- Background:
+
+    - A propriedade `background` é um atalho para definir valores de fundo individuais em um único lugar na folha de estilo.
+
+    - Eexemplo na prática:
+
+        ```css
 
 
+        ```
