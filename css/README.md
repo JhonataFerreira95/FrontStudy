@@ -372,8 +372,19 @@
 
         ```css
 
+            .box2{
+            background-image: linear-gradient(to left, #2c2c2c, #f64348);
+            height: 64px;
+            width: 320px;
+        }
 
         ```
+
+    - Resultado:
+
+        - Aqui utilizamos o `.box` para referência uma `class` no `htlm`, utilizamos o `background-image` para definir o tipo de fundo e `linear-gradient` para definir que o o fundo seja gradiente, utilizei o `linear-gradient(to left, #2c2c2c, #f64348` definindo o gradiente da esquerda para direito e suas cores que foi `#2c2c2c` e `#f64348`, após definir o tamanho de altura e largura que foi ` height: 64px` e `width: 320px`.
+
+    
 
 
 
