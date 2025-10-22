@@ -268,9 +268,17 @@
 
     - A propriedade `background` é um atalho para definir valores de fundo individuais em um único lugar na folha de estilo.
 
-    - Eexemplo na prática:
+    - Exemplo na prática:
 
         ```css
 
+            header {
+                background-color: #000;
+                color: #ffffff;
+            }
 
         ```
+
+    - Resultado:
+
+        - Sabemos que o `color` muda a cor dos nomes, enquanto o `background` muda o background de fundo de uma tag definida. Vale resltar que o `backgroud` funciona tanto com tags `html` quando com atríbutos, só que com atríbutos só irá funciona caso seja definido um `id` para o atríbuto desejado.
