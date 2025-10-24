@@ -1,0 +1,16 @@
+.box{
+    background-color: red;
+    border: 2px solid #1c1a1d;
+}
+
+.box{
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}

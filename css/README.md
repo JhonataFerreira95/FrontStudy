@@ -407,3 +407,66 @@
 
 # Box model: margin e padding
 
+- Aqui irei aborda sobre o `box model`, afinal as páginas webs utilizam o modelo de caixa, por isso o nome `box model`, quando se criar uma página `html` ou qualquer coisa web, eles seguem o modelo de caixa.
+
+- Margin: 
+
+    - Todo espaço em volta do elemento é a `margin`, já falei um pouco da `margin` aqui no [DevTools.](#devtools)
+
+    - Exemplo de `margin` na prática:
+
+        ```css
+
+            .box{
+                margin-top: 30px; /* margin do topo da página*/
+                margin-right: 40px; /* margin do direita da página*/
+                margin-left: 40px; /* margin do esquerda da página*/
+                margin-bottom: 30px; /* margin da parte inferior da página*/
+            }
+
+        ```
+    
+    - Resultado:
+
+        - Aqui utilizei o `margin-top` para definir um espaçamento entre o topo e o nosso elemento, utilizei o `margin-right` para definir o espaçamento da direita, `margin-left` para definir o espaçamento da esquerda e o `margin-bottom` definir o canto infeior do nosso elemento.
+
+    - Exemplos no DevTools:
+
+        ![espacamento](../css/assets/imagens/espacamento.png)
+
+        - Como pode ver as propriedades aplicada do `margin` e seu espaçamento ao redor do elemento.
+
+        ![espacamento2](../css/assets/imagens/espacamento2.png)
+
+        - Como ver é o `DevTools` e a parte em laranja é nossa `margin`, fica marcado o espaçamento que definimos.
+
+- Padding:
+
+    - Todo elemento tem um preenchemento que é o `padding` ele faz o espaço dentro do elemento, já falei um pouco do `padding` aqui no [DevTools.](#devtools)
+
+    - Exemplo de `padding` na prática:
+
+        ```css
+
+            .box{
+                padding-top: 10px;
+                padding-right: 20px;
+                padding-left: 20px;
+                padding-bottom: 10px;
+            }
+
+        ```
+
+    - Resultado:
+
+        - Aqui utilizei o `padding-top` para definir o espaçamento no canto superior do elemento, utilizei o `margin-padding-right` para definir o espaçamento do elemento para direito, `padding-left` para definir o espaçamento para esquerda e `padding-bottom` para espaçamento no canto inferior do elemento.
+
+    - Exemplos no DevTools:
+
+        ![paddingespacamento](../css/assets/imagens/padding.png)
+
+        - Como pode ver as propriedades aplicada do `padding` em seu espaçamento dentro do elemento.
+
+        ![paddingespacamento2](../css/assets/imagens/padding2.png)
+
+        - Como ver é o `DevTools` e a parte em verde é o nossa `padding`, fica marcado o espaçamento que definimos.
