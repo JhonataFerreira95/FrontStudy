@@ -470,3 +470,6 @@
         ![paddingespacamento2](../css/assets/imagens/padding2.png)
 
         - Como ver é o `DevTools` e a parte em verde é o nossa `padding`, fica marcado o espaçamento que definimos.
+
+## Display: none, inline, block e inline-block
+
