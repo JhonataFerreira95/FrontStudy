@@ -491,13 +491,25 @@
 
         ```css
 
-
+            .inline{
+                display: inline;
+                margin-top: 100px;
+                margin-bottom: 200px;
+                margin-left: 20px;
+                margin-right: 20px;
+                padding-top: 100px;
+                padding-bottom: 100px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
 
         ```
 
     - Resultado: 
 
-        - 
+        ![inline](../css/assets/imagens/display_inline.png)
+
+        - Como já foi mencionado, o `inline` não aceita propriedade vertica, ou seja, `top` e `bottom`, aceita apenas na horizontal como `left` e `right`.
 
 - `Display: block`
 
