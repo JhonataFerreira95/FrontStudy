@@ -492,15 +492,16 @@
         ```css
 
             .inline{
-                display: inline;
-                margin-top: 100px;
-                margin-bottom: 200px;
-                margin-left: 20px;
-                margin-right: 20px;
-                padding-top: 100px;
-                padding-bottom: 100px;
-                padding-left: 20px;
-                padding-right: 20px;
+                margin-top: 10px;       /* ❌ não funciona */
+                margin-bottom: 10px;    /* ❌ não funciona */
+                margin-left: 20px;      /* ✅ funciona */
+                margin-right: 20px;     /* ✅ funciona */
+                padding-top: 10px;      /* ⚠️ funciona parcialmente (não empurra outros elementos) */
+                padding-bottom: 10px;   /* ⚠️ funciona parcialmente */
+                padding-left: 20px;     /* ✅ funciona */
+                padding-right: 20px;    /* ✅ funciona */
+                width: 200px;           /* ❌ não funciona */
+                height: 100px;          /* ❌ não funciona */
             }
 
         ```
@@ -527,13 +528,26 @@
 
         ```css
 
-
+            .block{
+                margin-top: 10px;       /* ✅ aceita */
+                margin-bottom: 10px;    /* ✅ aceita */
+                margin-left: 20px;      /* ✅ aceita */
+                margin-right: 20px;     /* ✅ aceita */
+                padding-top: 10px;      /* ✅ aceita */
+                padding-bottom: 10px;   /* ✅ aceita */
+                padding-left: 20px;     /* ✅ aceita */
+                padding-right: 20px;    /* ✅ aceita */
+                width: 200px;           /* ✅ aceita */
+                height: 100px;          /* ✅ aceita */
+            }
 
         ```
 
     - Resultado: 
 
-        - 
+        ![block](../css/assets/imagens/display_block.png)
+
+        - No block aceitamos quebra de linha e todo tipo de propriedade, e sua margem é vertical além de definimos o widht e height se quisermos.
 
 - `Display: inline-block`
 
