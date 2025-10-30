@@ -486,3 +486,31 @@
     - Ignora width e height.
 
     - `margin/padding` vertical não empurra outros elementos.
+
+    - Exemplo na prática:
+
+        ```css
+
+
+
+        ```
+
+- `Display: block`
+
+    - Utilização do `block` quebra de linha, largura máxima, aceita margem e preenchimento vertical
+
+    - Ocupa toda a largura do container
+
+    - Quebra linha antes e depois
+
+    - Aceita width e height
+
+    - Margin e padding funcionam normalmente
+
+    - Exemplo na prática:
+
+        ```css
+
+
+
+        ```
