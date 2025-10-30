@@ -533,7 +533,7 @@
 
     - Margin e padding funcionam completamente
 
-     - Exemplo na prática:
+    - Exemplo na prática:
 
         ```css
 
@@ -545,5 +545,26 @@
 
         - 
 
+- `Display: none`
+
+    - Utilização do `none`apenas esconde os elementos
+
+    - Remove completamente o elemento do layout
+
+    - Não é renderizado nem ocupa espaço
+
+    - Fica invisível e ignorado pelo navegador
+
+    - Exemplo na prática:
+
+        ```css
+
+
+
+        ```
+
+    - Resultado: 
+
+        - 
 
 
