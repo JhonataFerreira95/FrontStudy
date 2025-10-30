@@ -26,6 +26,16 @@
     padding-right: 20px;
 }
 
+/* Utilização do `inline-block` não quebra linha */
+
+.inline-block{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* Utilização do `none`apenas esconde os elementos */
 
 .none{

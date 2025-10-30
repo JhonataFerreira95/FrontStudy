@@ -473,7 +473,7 @@
 
 ## Display: none, inline, block e inline-block
 
-- Hoje irei aborda as propriedades `display: none`, `inline`, `block` e `inline-block`.
+- Hoje irei aborda as propriedades `display: none`, `inline`, `block` e `inline-block`, existem vários tipos de displays além desses 4 apresentados, só que são os padrões pelos navegadores, além de serem os mais simples.
 
 - `Display: inline`
 
@@ -563,25 +563,27 @@
 
         ```css
 
-            .none{
-                display: none;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                margin-left: 20px;
-                margin-right: 20px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                padding-left: 20px;
-                padding-right: 20px;
+            .inline-block{
+                display: inline-block;
+                margin-top: 10px;       /* ✅ aceita */
+                margin-bottom: 10px;    /* ✅ aceita */
+                margin-left: 20px;      /* ✅ aceita */
+                margin-right: 20px;     /* ✅ aceita */
+                padding-top: 10px;      /* ✅ aceita */
+                padding-bottom: 10px;   /* ✅ aceita */
+                padding-left: 20px;     /* ✅ aceita */
+                padding-right: 20px;    /* ✅ aceita */
+                width: 200px;           /* ✅ aceita */
+                height: 100px;          /* ✅ aceita */
             }
 
         ```
 
     - Resultado: 
 
-        ![]()
+        ![inline-block](../css/assets/imagens/)
 
-        - 
+        - O display `inline-block` não quebra de linha mas permite o preenchimento vertical e horizontal como `margin-top/margin/bottom` e `padding-top/padding/bottom`.
 
 - `Display: none`
 
