@@ -1,0 +1,5 @@
+/* inline: não quebra de linha, largura mínima, apenas aceita margem e preenchimento horizontal */
+
+.inline{
+    display: inline;
+}

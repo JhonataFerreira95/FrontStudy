@@ -473,3 +473,16 @@
 
 ## Display: none, inline, block e inline-block
 
+- Hoje irei aborda as propriedades `display: none`, `inline`, `block` e `inline-block`.
+
+- `Display: inline`
+
+    - Utilização do `inline` não quebra de linha, largura mínima, apenas aceita margem e preenchimento horizontal.
+
+    - Ocupa apenas o espaço do conteúdo.
+
+    - Fica na mesma linha (não quebra linha).
+
+    - Ignora width e height.
+
+    - `margin/padding` vertical não empurra outros elementos.
