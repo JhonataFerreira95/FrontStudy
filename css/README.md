@@ -495,6 +495,10 @@
 
         ```
 
+    - Resultado: 
+
+        - 
+
 - `Display: block`
 
     - Utilização do `block` quebra de linha, largura máxima, aceita margem e preenchimento vertical
@@ -514,3 +518,32 @@
 
 
         ```
+
+    - Resultado: 
+
+        - 
+
+- `Display: inline-block`
+
+    - Utilização do `inline-block` não quebra linha.
+
+    - Fica na mesma linha como inline
+
+    - Aceita width e height como block
+
+    - Margin e padding funcionam completamente
+
+     - Exemplo na prática:
+
+        ```css
+
+
+
+        ```
+
+    - Resultado: 
+
+        - 
+
+
+
