@@ -547,7 +547,7 @@
 
         ![block](../css/assets/imagens/display_block.png)
 
-        - No block aceitamos quebra de linha e todo tipo de propriedade, e sua margem é vertical além de definimos o widht e height se quisermos.
+        - No `block` aceitamos quebra de linha e todo tipo de propriedade, e sua margem é vertical além de definimos o widht e height se quisermos.
 
 - `Display: inline-block`
 
@@ -563,11 +563,23 @@
 
         ```css
 
-
+            .none{
+                display: none;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 20px;
+                margin-right: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
 
         ```
 
     - Resultado: 
+
+        ![]()
 
         - 
 
@@ -585,12 +597,26 @@
 
         ```css
 
-
+           .none{
+                display: none;
+                margin-top: 10px;       /* ❌ ignorado */
+                margin-bottom: 10px;    /* ❌ ignorado */
+                margin-left: 20px;      /* ❌ ignorado */
+                margin-right: 20px;     /* ❌ ignorado */
+                padding-top: 10px;      /* ❌ ignorado */
+                padding-bottom: 10px;   /* ❌ ignorado */
+                padding-left: 20px;     /* ❌ ignorado */
+                padding-right: 20px;    /* ❌ ignorado */
+                width: 200px;           /* ❌ ignorado */
+                height: 100px;          /* ❌ ignorado */
+            }
 
         ```
 
     - Resultado: 
 
-        - 
+        ![none](../css/assets/imagens/display_none.png)
+
+        - O `none` não tem alteração visual no navegador, ou seja, tudo é ignorado.
 
 
