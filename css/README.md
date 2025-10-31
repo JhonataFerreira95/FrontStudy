@@ -703,4 +703,25 @@
 
             - Nota-se que, o seletor de filho estilizar apenas o elemento que está dentro de outro elemento, utilizando o sinal maior que `>` e o elemento desejado, aqui pegamos o filho do elemento `nav`, que era um `a` e adicionamos um `block`, `color` e `padding`, observa-se que apenas ele mudou, já que os outros elementos `a` são filhos da tag `li`.
 
-    -         
+    - Seletores de Classes
+
+        - Esse é o mais utilizado, podemos ir em nossa `html` e pegar-mos a `class` desejado e estilizar com a nomeclatura `.<node_da_class>`, assim comecariamos a estilizar uma `class`.
+
+        - Exemplo na prática:
+
+            ```css
+            
+            .laranja{
+                color: #f5a623
+            }
+
+            .verde{
+                color: #27ae60 
+            }  
+
+            ```
+
+        - Resultado:
+
+            - Aqui utlizamos o seletor de `class` para estilizar as classes atribuídas como laranja e verde.
+

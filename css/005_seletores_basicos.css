@@ -26,3 +26,13 @@ nav > a {
     color: #f5a623;
     padding: 10px;
 }
+
+/* Seletor de classes */
+
+.laranja{
+    color: #f5a623
+}
+
+.verde{
+   color: #27ae60 
+}
