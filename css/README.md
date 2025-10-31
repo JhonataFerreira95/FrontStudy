@@ -8,8 +8,8 @@
 03. [Cores](#cores)
 04. [Background e Border](#background-e-border)
 05. [Margin e Padding](#box-model-margin-e-padding)
-06. [Especificidade]()
-
+06. [Displays Básicos](#display-none-inline-block-e-inline-block)
+07. [Seletores Básicos](#seletores-básicos)
 
 ## O que é o HTML e como usá-lo
 
@@ -621,4 +621,4 @@
 
         - O `none` não tem alteração visual no navegador, ou seja, tudo é ignorado.
 
-
+## Seletores Básicos
