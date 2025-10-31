@@ -629,14 +629,20 @@
 
     - Seletor universal:
 
-        - O seletor universal nos permite aplicar os estilos em todos os elementos `html`. A representação do seletor universal no `css` é o `*`.
+        - O seletor universal nos permite aplicar os estilos em todos os elementos `html`. A representação do seletor universal no `css` é o `*`, o porque utilizar o estilo universal? Para a normalização do estilo no navegador.
 
         - Exemplo na prática:
 
             ```css
 
                 *{
-
+                    margin: 0;
+                    padding: 0;
                 }
 
             ```
+        - Resultado:
+
+            - O seltor universal é utilizado para aplicar estilos em tudo como o próprio nome já diz e também é possíve remover tudo, até mesmo os estilo padrões do navegadores, assim permitindo que nossa estilização seja criada do absoluto zero.
+
+    
