@@ -664,3 +664,23 @@
         - Resultado:
 
             - Aqui estamos utilizando o seletor de tag, como pode ver, aplicamos diretamento os estilos utilizando as tags `html`, podemos aplicar o mesmo estilos para várias tags apenas utilizando a vírgulas para separá-las 
+
+    - Seletor de Elementos aninhados:
+
+        - Seletor de elementos aninhados nada mais é que uma seleção de uma elemento que está dentro de outro elemento, não precisamos separar os elementos por vírgula quando o seletor é aninhados.
+
+        - Exemplo na prática:
+
+            ```css
+
+                nav a {
+                    color: #27ae60;
+                }
+
+            ```
+
+        - Resultado:
+
+            - Como pode ser visto, estamos utilizando o seletor de elementos aninhados, afinal estamos acessando a tag `nav` e posteriomente nossas tags `a` para estilização, por isso é chamado de aninhados, já que acessamos elementos dentro de outro elemento.
+
+            
