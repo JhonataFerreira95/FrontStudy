@@ -781,4 +781,24 @@
 
             - Aplicamos o seletor de sequência no nosso `ìnput`, pegamos o primeiro `input` que aplicamos e funciona assim, ele vai estilizar o elemento do segundo`input` mas nunca o primeiro.
 
-    - 
+    - Seletor de Atríbuto
+
+        - Esse é um dos seletores mais simples de se utilizar, já que iremos pegar como base o atríbuto atribuído lá no `html` a um elemento.
+
+        - Exemplo na prática:
+
+            ```css
+
+                input[name="email"]{
+                    background-color: orange;
+                }
+
+                input[type="password"]{
+                    background-color: green;
+                }
+
+            ```
+
+        - Resultado:
+
+            - Aqui estamos estilizanos os input pelos seus atríbutos `name` e `type`, é simples já que se atualizamos um o outro fica exatamente como está, sem alteração nenhuma, já que estamos estilizando ele por seu atríbuto.

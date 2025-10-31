@@ -63,3 +63,12 @@ input + input{
     margin-bottom: 30px;
 }
 
+/* Seletor de Atríbuto */
+
+input[name="email"]{
+    background-color: orange;
+}
+
+input[type="password"]{
+    background-color: green;
+}
