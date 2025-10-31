@@ -36,3 +36,10 @@ nav > a {
 .verde{
    color: #27ae60 
 }
+
+/* seletor de id */
+
+#secao-principal{
+    padding: 20px;
+    text-align: center;
+}

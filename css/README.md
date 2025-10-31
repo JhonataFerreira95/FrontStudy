@@ -29,9 +29,9 @@
         
         ```
 
-        - Aqui utilizamos a tag `h1` com a junção do atríbuto de `style="color"` para definição de uma cor ao nosso título.
+        - Aqui utilizamos a elemento `h1` com a junção do atríbuto de `style="color"` para definição de uma cor ao nosso título.
 
-    - Com a tag `style`, por exemplo:
+    - Com a elemento `style`, por exemplo:
 
         ```css
 
@@ -47,9 +47,9 @@
 
         ```
 
-        - Com a tag `style`, podemos aplicar regras de `css` diretamente dentro do documento `html`, sem precisar de um arquivo externo. Ela deve ser colocada dentro da tag `head`, que é responsável por conter as informações de configuração e estilo da página.
+        - Com a elemento `style`, podemos aplicar regras de `css` diretamente dentro do documento `html`, sem precisar de um arquivo externo. Ela deve ser colocada dentro da elemento `head`, que é responsável por conter as informações de configuração e estilo da página.
 
-    - Utilizando a tag link apontando para um arquivo `css` que é o mais comum, por exemplo:
+    - Utilizando a elemento link apontando para um arquivo `css` que é o mais comum, por exemplo:
 
         ```css
 
@@ -57,7 +57,7 @@
 
         ```
 
-        - Adicionamos a tag `link` para linkar ao nosso `html` e apontamos para o nosso arquivo css com o atríbuto `href=""`, e o atríbuto `rel=stylesheet` informa ao navegador que é uma folha de estilo `css`.
+        - Adicionamos a elemento `link` para linkar ao nosso `html` e apontamos para o nosso arquivo css com o atríbuto `href=""`, e o atríbuto `rel=stylesheet` informa ao navegador que é uma folha de estilo `css`.
 
 - Estrutura de um código em `css` usando como exemplo um o código:
 
@@ -88,10 +88,10 @@
 
 - Como foi visto ateriormente, existem 2 formas de utilizar o `css` no `html`
 
-    - 1 Utilizando via a tag `link`
+    - 1 Utilizando via a elemento `link`
     - 2 Utilizando via atríbuto `style`
 
-- A forma mais comum é criando um arquivo serpado para utiização do código `css` atráves da tag `link` apontando para o mesmo.
+- A forma mais comum é criando um arquivo serpado para utiização do código `css` atráves da elemento `link` apontando para o mesmo.
 
     - Exemplo:
 
@@ -105,7 +105,7 @@
 
 ### Cores diretamente no arquivo `css`
 
-- Vale ressaltar que o `css` é em castaca, então a última propriedade definida para determinada tag vai ser a alterada.
+- Vale ressaltar que o `css` é em castaca, então a última propriedade definida para determinada elemento vai ser a alterada.
 
     - Exemplo na prática:
 
@@ -139,7 +139,7 @@
 
         ![DevTools](../css/assets/imagens/DevTools.png)
 
-- Posso altera isso de forma temporária, basta selecionar a tag desejada no `Elements` e alterar o estilo dela no `Styles`, para alterar o `html` é no `Elements` e no `css` no `Estyles`.
+- Posso altera isso de forma temporária, basta selecionar a elemento desejada no `Elements` e alterar o estilo dela no `Styles`, para alterar o `html` é no `Elements` e no `css` no `Estyles`.
 
     - Exemplo na prática `Elements`:
 
@@ -161,7 +161,7 @@
 
     - Resultado:
 
-        - Observa-se que selecionamos novamente a tag `p` e ali temos todas as suas propriedades e seu tamanho.
+        - Observa-se que selecionamos novamente a elemento `p` e ali temos todas as suas propriedades e seu tamanho.
 
         - margin, border, padding
 
@@ -169,7 +169,7 @@
 
         - margin:
 
-            - Todas as tags possuem `margin`, que nada mais é que o espaçamento entre as laterais, superior e inferior ao elemento.
+            - Todas as elementos possuem `margin`, que nada mais é que o espaçamento entre as laterais, superior e inferior ao elemento.
 
         - border:
 
@@ -281,7 +281,7 @@
 
     - Resultado:
 
-        - Sabemos que o `color` muda a cor dos nomes, enquanto o `background` muda o background de fundo de uma tag definida. Vale resltar que o `backgroud` funciona tanto com tags `html` quando com atríbutos, só que com atríbutos só irá funciona caso seja definido um `id` para o atríbuto desejado.
+        - Sabemos que o `color` muda a cor dos nomes, enquanto o `background` muda o background de fundo de uma elemento definida. Vale resltar que o `backgroud` funciona tanto com elementos `html` quando com atríbutos, só que com atríbutos só irá funciona caso seja definido um `id` para o atríbuto desejado.
 
     - Trabalhando com `backgroud` e função `rgb`:
 
@@ -320,7 +320,7 @@
 
 - Border
 
-    - A propriedade `border` é utilizada para definir a borda de um elemento(tag ou atríbutos com `id`) no `html`, geralmente utilizada para aplicar no elemento para ter as suas características alteradas como o seu tamanho, a sua cor ou seu estilo.
+    - A propriedade `border` é utilizada para definir a borda de um elemento(elemento ou atríbutos com `id`) no `html`, geralmente utilizada para aplicar no elemento para ter as suas características alteradas como o seu tamanho, a sua cor ou seu estilo.
 
     - Propriedades do `border`
 
@@ -645,9 +645,9 @@
 
             - O seltor universal é utilizado para aplicar estilos em tudo como o próprio nome já diz e também é possíve remover tudo, até mesmo os estilo padrões do navegadores, assim permitindo que nossa estilização seja criada do absoluto zero.
 
-    - Seletor de tag:
+    - Seletor de elemento:
 
-        - O seletor de tag permite que possamos pegar uma tag e estilizamos apenas aquele elemento com a tag específica.
+        - O seletor de elemento permite que possamos pegar uma elemento e estilizamos apenas aquele elemento com a elemento específica.
 
         - Exemplo na prática:
 
@@ -663,7 +663,7 @@
 
         - Resultado:
 
-            - Aqui estamos utilizando o seletor de tag, como pode ver, aplicamos diretamento os estilos utilizando as tags `html`, podemos aplicar o mesmo estilos para várias tags apenas utilizando a vírgulas para separá-las 
+            - Aqui estamos utilizando o seletor de elemento, como pode ver, aplicamos diretamento os estilos utilizando as elementos `html`, podemos aplicar o mesmo estilos para várias elementos apenas utilizando a vírgulas para separá-las 
 
     - Seletor de Elementos aninhados:
 
@@ -681,7 +681,7 @@
 
         - Resultado:
 
-            - Como pode ser visto, estamos utilizando o seletor de elementos aninhados, afinal estamos acessando a tag `nav` e posteriomente nossas tags `a` para estilização, por isso é chamado de aninhados, já que acessamos elementos dentro de outro elemento.
+            - Como pode ser visto, estamos utilizando o seletor de elementos aninhados, afinal estamos acessando a elemento `nav` e posteriomente nossas elementos `a` para estilização, por isso é chamado de aninhados, já que acessamos elementos dentro de outro elemento.
 
     - Seletor de Filhos:
 
@@ -701,7 +701,7 @@
 
         - Resultado:
 
-            - Nota-se que, o seletor de filho estilizar apenas o elemento que está dentro de outro elemento, utilizando o sinal maior que `>` e o elemento desejado, aqui pegamos o filho do elemento `nav`, que era um `a` e adicionamos um `block`, `color` e `padding`, observa-se que apenas ele mudou, já que os outros elementos `a` são filhos da tag `li`.
+            - Nota-se que, o seletor de filho estilizar apenas o elemento que está dentro de outro elemento, utilizando o sinal maior que `>` e o elemento desejado, aqui pegamos o filho do elemento `nav`, que era um `a` e adicionamos um `block`, `color` e `padding`, observa-se que apenas ele mudou, já que os outros elementos `a` são filhos da elemento `li`.
 
     - Seletores de Classes
 
@@ -725,3 +725,21 @@
 
             - Aqui utlizamos o seletor de `class` para estilizar as classes atribuídas como laranja e verde.
 
+    - Seletores de Id
+
+        - Os seletores de `id` quando atribuímos um `id` a um elemento `html`, estilizamos eles a partir do seu `id` no `css`, a nomeclatura utilizada para estilizar um `id` é a seguinte `#<nome_do_id_no_html>`.
+
+        - Exemplo na prática:
+
+            ```css
+
+                #secao-principal{
+                padding: 20px;
+                text-align: center;
+            }
+
+            ```
+
+        - Resultado:
+
+            - Utilizamos o `id` para estilizar o elemento `section` em específico, centralizamos todo o texto com um `text-aling: center;` e um espaçamento com `padding: 20;`.
