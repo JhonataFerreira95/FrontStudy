@@ -622,3 +622,21 @@
         - O `none` não tem alteração visual no navegador, ou seja, tudo é ignorado.
 
 ## Seletores Básicos
+
+- O que são seletores?
+
+    - São um padrões usados para selecionar elementos no `html` específicos para que possam ser estilizados. Eles determinam quais elementos de um documento `html` receberão uma regra de estilo definidas no `css`, e os tipos mais comuns incluem seletores de `class` e `id`, que são seletores básicos, nosso foco serão estes.
+
+    - Seletor universal:
+
+        - O seletor universal nos permite aplicar os estilos em todos os elementos `html`. A representação do seletor universal no `css` é o `*`.
+
+        - Exemplo na prática:
+
+            ```css
+
+                *{
+
+                }
+
+            ```
