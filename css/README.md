@@ -683,4 +683,24 @@
 
             - Como pode ser visto, estamos utilizando o seletor de elementos aninhados, afinal estamos acessando a tag `nav` e posteriomente nossas tags `a` para estilização, por isso é chamado de aninhados, já que acessamos elementos dentro de outro elemento.
 
-            
+    - Seletor de Filhos:
+
+        - O seletor de filhos são aqueles elementos dentro de outro elemento, podemos estilizar o elementos em específico, diferente do seletor aninhado.
+
+        - Exemplo na prática:
+
+            ```css
+
+            nav > a {
+                display: block;
+                color: #f5a623;
+                padding: 10px;
+            }
+
+            ```
+
+        - Resultado:
+
+            - Nota-se que, o seletor de filho estilizar apenas o elemento que está dentro de outro elemento, utilizando o sinal maior que `>` e o elemento desejado, aqui pegamos o filho do elemento `nav`, que era um `a` e adicionamos um `block`, `color` e `padding`, observa-se que apenas ele mudou, já que os outros elementos `a` são filhos da tag `li`.
+
+    -         
