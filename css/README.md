@@ -645,4 +645,22 @@
 
             - O seltor universal é utilizado para aplicar estilos em tudo como o próprio nome já diz e também é possíve remover tudo, até mesmo os estilo padrões do navegadores, assim permitindo que nossa estilização seja criada do absoluto zero.
 
-    
+    - Seletor de tag:
+
+        - O seletor de tag permite que possamos pegar uma tag e estilizamos apenas aquele elemento com a tag específica.
+
+        - Exemplo na prática:
+
+            ```css
+
+                header, footer{
+                    background-color: #333;
+                    color: #fff;
+                    padding: 10px;
+                }
+
+            ```
+
+        - Resultado:
+
+            - Aqui estamos utilizando o seletor de tag, como pode ver, aplicamos diretamento os estilos utilizando as tags `html`, podemos aplicar o mesmo estilos para várias tags apenas utilizando a vírgulas para separá-las 
