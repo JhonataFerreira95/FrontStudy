@@ -734,12 +734,30 @@
             ```css
 
                 #secao-principal{
-                padding: 20px;
-                text-align: center;
-            }
+                    padding: 20px;
+                    text-align: center;
+                }
 
             ```
 
         - Resultado:
 
-            - Utilizamos o `id` para estilizar o elemento `section` em específico, centralizamos todo o texto com um `text-aling: center;` e um espaçamento com `padding: 20;`.
+            - Utilizamos o `id` para estilizar o elemento `section` em específico, centralizamos todo o texto com um `text-aling: center;` e uma borda com `padding: 20;`.
+    
+    - Combinação de seletores
+
+        - Podemos fazer a combinação de N seletores.
+
+        - Exemplo na prática:
+
+            ```css
+
+                #secao-principal > * {
+                    margin-top: 10px;
+                }
+            
+            ```
+
+        - Resultado:
+
+            - Aqui estamos combinando os seletores `id` com o `*` universsal, juntamos os dois com o símbolos maior que `>` e todos os elementos da seção príncipal ficou com um espaçamento de `10px`.

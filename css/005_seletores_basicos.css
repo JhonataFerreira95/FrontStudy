@@ -43,3 +43,9 @@ nav > a {
     padding: 20px;
     text-align: center;
 }
+
+/* Combinação de seletores */
+
+#secao-principal > * {
+    margin-top: 10px;
+}
