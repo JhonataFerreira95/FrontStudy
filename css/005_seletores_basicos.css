@@ -49,3 +49,17 @@ nav > a {
 #secao-principal > * {
     margin-top: 10px;
 }
+
+/* Seletor de sequência */
+
+input {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+
+input + input{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+

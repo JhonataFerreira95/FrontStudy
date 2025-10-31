@@ -761,3 +761,24 @@
         - Resultado:
 
             - Aqui estamos combinando os seletores `id` com o `*` universsal, juntamos os dois com o símbolos maior que `>` e todos os elementos da seção príncipal ficou com um espaçamento de `10px`.
+
+    - Seletor de Sequência
+
+        - Utilizam combinadores para estilizar elementos com base em sua posição relativa ou na sequência em que aparecem no documento `html`.
+
+        - Exemplo na prática:
+
+            ```css
+
+                input + input{
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                }
+
+            ```
+
+        - Resultado:
+
+            - Aplicamos o seletor de sequência no nosso `ìnput`, pegamos o primeiro `input` que aplicamos e funciona assim, ele vai estilizar o elemento do segundo`input` mas nunca o primeiro.
+
+    - 
