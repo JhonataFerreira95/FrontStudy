@@ -581,7 +581,7 @@
 
     - Resultado: 
 
-        ![inline-block](../css/assets/imagens/)
+        ![inline-block](../css/assets/imagens/display_inline_block.png)
 
         - O display `inline-block` não quebra de linha mas permite o preenchimento vertical e horizontal como `margin-top/margin/bottom` e `padding-top/padding/bottom`.
 
