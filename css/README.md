@@ -802,3 +802,5 @@
         - Resultado:
 
             - Aqui estamos estilizanos os input pelos seus atríbutos `name` e `type`, é simples já que se atualizamos um o outro fica exatamente como está, sem alteração nenhuma, já que estamos estilizando ele por seu atríbuto.
+
+## Textos e Fontes
