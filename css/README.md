@@ -804,3 +804,24 @@
             - Aqui estamos estilizanos os input pelos seus atríbutos `name` e `type`, é simples já que se atualizamos um o outro fica exatamente como está, sem alteração nenhuma, já que estamos estilizando ele por seu atríbuto.
 
 ## Textos e Fontes
+
+- Para utilizamos apenas o `html` para criar o esqueleto do nosso site, as fontes e os textos podem ser passadas ou moldadas diretamente em nosso arquivo `css`.
+
+    - `text-align`:
+
+        - O `text-align` serve para definir o alinhamento horizontal(esquerda ou direita), vertical(cima ou baixo) o texto de uma `tag`, `seletor`, `classe` ou `id` específico.
+
+        - Exemplos:
+
+            ```css
+
+                header {
+                text-align: center;
+                }
+
+            ```
+
+        - Resultado:
+
+            - Aqui utilizamos o `text-align: center` para centralizamos o nosso texto no centro com a propriedade `center`.
+
