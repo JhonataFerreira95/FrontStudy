@@ -807,60 +807,66 @@
 
 - Para utilizamos apenas o `html` para criar o esqueleto do nosso site, as fontes e os textos podem ser passadas ou moldadas diretamente em nosso arquivo `css`.
 
-    - `text-align`:
+    - `texts`:
 
-        - O `text-align` serve para definir o alinhamento horizontal(esquerda ou direita), vertical(cima ou baixo) o texto de uma `tag`, `seletor`, `classe` ou `id` específico.
+        - `text-align`:
 
-        - Exemplos:
+            - O `text-align` serve para definir o alinhamento horizontal(esquerda ou direita), vertical(cima ou baixo) o texto de uma `tag`, `seletor`, `classe` ou `id` específico.
 
-            ```css
+            - Exemplos:
 
-                header {
-                text-align: center;
-                }
+                ```css
 
-            ```
+                    header {
+                    text-align: center;
+                    }
 
-        - Resultado:
+                ```
 
-            - Aqui utilizamos o `text-align: center;` para centralizamos o nosso texto no centro com a propriedade `center`.
+            - Resultado:
 
-    - `text-decoration`:
+                - Aqui utilizamos o `text-align: center;` para centralizamos o nosso texto no centro com a propriedade `center`.
 
-        - O `text-decoration` serve para decorar o nosso texto com nosso seletores como `tag`, `class`, `id` ou `tag`.
+        - `text-decoration`:
 
-        - Exemplos:
+            - O `text-decoration` serve para decorar o nosso texto com nosso seletores como `tag`, `class`, `id` ou `tag`.
 
-            ```css
+            - Exemplos:
 
-                header {
-                    text-decoration: underline;
-                }
+                ```css
 
-            ```
+                    header {
+                        text-decoration: underline;
+                    }
 
-        - Resultado:
+                ```
 
-            - Aqui utilizamos o `text-decoration: underline;` para decorar o nosso texto de uma forma que ele fique sublinhado.
+            - Resultado:
 
-    - `text-tranform`:
+                - Aqui utilizamos o `text-decoration: underline;` para decorar o nosso texto de uma forma que ele fique sublinhado.
 
-        - O `text-tranform` permite modificar os nossos textos para maiúsculo ou minúsculo, `upecase` ou `downcase`.
+        - `text-tranform`:
 
-        - Exemplos:
+            - O `text-tranform` permite modificar os nossos textos para maiúsculo ou minúsculo, `upecase` ou `downcase`.
 
-            ```css
+            - Exemplos:
 
-                header {
-                    text-transform: lowercase;
-                }
+                ```css
 
-            ```
-        
-        - Resultado:
+                    header {
+                        text-transform: lowercase;
+                    }
 
-            - Aqui utilizamos o `text-transform: lowercase;` para deixa todas as letras minúsculas.
-
+                ```
             
+            - Resultado:
+
+                - Aqui utilizamos o `text-transform: lowercase;` para deixa todas as letras minúsculas.
+
+    -  `Fonts`:
+
+        - `font-family`:
+        
+
 
 
