@@ -825,20 +825,42 @@
 
             - Aqui utilizamos o `text-align: center;` para centralizamos o nosso texto no centro com a propriedade `center`.
 
-    - `text-decoration`
+    - `text-decoration`:
 
         - O `text-decoration` serve para decorar o nosso texto com nosso seletores como `tag`, `class`, `id` ou `tag`.
 
         - Exemplos:
 
-        ```css
+            ```css
 
-            header {
-                text-decoration: underline;
-            }
+                header {
+                    text-decoration: underline;
+                }
 
-        ```
+            ```
 
         - Resultado:
 
             - Aqui utilizamos o `text-decoration: underline;` para decorar o nosso texto de uma forma que ele fique sublinhado.
+
+    - `text-tranform`:
+
+        - O `text-tranform` permite modificar os nossos textos para maiúsculo ou minúsculo, `upecase` ou `downcase`.
+
+        - Exemplos:
+
+            ```css
+
+                header {
+                    text-transform: lowercase;
+                }
+
+            ```
+        
+        - Resultado:
+
+            - Aqui utilizamos o `text-transform: lowercase;` para deixa todas as letras minúsculas.
+
+            
+
+
