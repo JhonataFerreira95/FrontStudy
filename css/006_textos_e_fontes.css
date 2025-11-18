@@ -3,3 +3,26 @@ header {
   text-decoration: overline;
   text-transform: uppercase;
 }
+
+h1 {
+  font-family: cursive;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 16px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}<span class="redactor-invisible-space">​</span>

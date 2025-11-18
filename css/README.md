@@ -823,5 +823,22 @@
 
         - Resultado:
 
-            - Aqui utilizamos o `text-align: center` para centralizamos o nosso texto no centro com a propriedade `center`.
+            - Aqui utilizamos o `text-align: center;` para centralizamos o nosso texto no centro com a propriedade `center`.
 
+    - `text-decoration`
+
+        - O `text-decoration` serve para decorar o nosso texto com nosso seletores como `tag`, `class`, `id` ou `tag`.
+
+        - Exemplos:
+
+        ```css
+
+            header {
+                text-decoration: underline;
+            }
+
+        ```
+
+        - Resultado:
+
+            - Aqui utilizamos o `text-decoration: underline;` para decorar o nosso texto de uma forma que ele fique sublinhado.
