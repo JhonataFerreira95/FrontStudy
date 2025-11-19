@@ -867,6 +867,23 @@
 
         - `font-family`:
         
+            - O `font-family` permite modificar o estilo da font no `html` diratemente no `css`.
+
+            - Exemplos:
+
+                ```css
+
+                    h1 {
+                        font-family: cursive;
+                    }
+
+                ```
+
+            - Resultado:
+
+                - Aqui utiizamos `font-family: cursive;` para estilizar o estilo de uma fonte no `html` usando o `css`.
+
+                
 
 
 
