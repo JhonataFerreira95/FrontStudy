@@ -883,6 +883,27 @@
 
                 - Aqui utiizamos `font-family: cursive;` para estilizar o estilo de uma fonte no `html` usando o `css`.
 
+        - `font-weight`:
+
+            - O `font-weight` é utilizada para definir o contraste da fonte, se você quer que a fonte fique mais fina ou mais robusta via `css`.
+
+            - Exemplos:
+
+                ```css
+
+                    h1 {
+                    font-family: cursive;
+                    font-weight: 100;
+                    }
+
+                ```
+
+            - Resultado:
+
+                - Aqui utilizamos o `font-weight: 100;` para deixar a fonte com um constraste mais grosso em nossa `font-family: cursive;`.
+
+            
+
                 
 
 
