@@ -920,6 +920,27 @@
 
                 - Aqui utilizamos o `font-size: 16px;` para definir que o tamanho da nossa font é 16px.
 
+        - `letter-spacing`:
+
+
+            - O `letter-spacing` é utilizado para espaçamento entre as letras do texto via `css`.
+
+            - Exemplos:
+
+                ```css 
+
+                    h2 {
+                        font-size: 16px;
+                        letter-spacing: 10px;
+                        text-transform: uppercase;
+                    }
+
+                ```
+
+            - Resultado:
+
+                - Aqui utilizamos o `letter-spacing: 10px;` para um espaçamento entre as letras de 10px, também utilizamos o `font-size: 16px;` para definir o tamanho da fonto em nosso `html` e por fim o `text-trasnform: uppercase;` para deixa todas as letras maiúsculas. 
+
             
 
                 
