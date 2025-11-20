@@ -10,6 +10,8 @@
 05. [Margin e Padding](#box-model-margin-e-padding)
 06. [Displays Básicos](#display-none-inline-block-e-inline-block)
 07. [Seletores Básicos](#seletores-básicos)
+08. [Textos e Fontes](#textos-e-fontes)
+09. [Unidades de Medida](#unidade-de-medida)
 
 ## O que é o HTML e como usá-lo
 
@@ -998,6 +1000,8 @@
                 - Resultado:
 
                     - Aqui é simples, no lugar do `link` via `html`, utilizamos o `@import` dentro do `css`.
+
+## Unidade de Medida
 
 
            
