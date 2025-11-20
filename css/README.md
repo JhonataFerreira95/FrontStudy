@@ -976,8 +976,28 @@
 
                 - Aqui utilizamos o `font-family: "Playwrite US Trad Guides", cursive;` para importa a fonte diretamente do google fontes, lembrando que temos que utilizar o `link` ou `@import` via `html` para utilizar a fonte.
 
-                
 
+            - `@import`: 
+
+                - Irei mencionar rápidamente o `@import`, podemos importa diretamente a fonte no `css` no lugar de `link` via `html`, que é o recomendado.
+
+
+                - Exemplo:
+
+                    ```css
+
+                        @import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad+Guides&display=swap');
+
+                        h1 {
+                        font-family: "Playwrite US Trad Guides", cursive;
+                        font-weight: 100;
+                        }
+
+                    ```
+
+                - Resultado:
+
+                    - Aqui é simples, no lugar do `link` via `html`, utilizamos o `@import` dentro do `css`.
 
 
            
