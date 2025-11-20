@@ -902,6 +902,24 @@
 
                 - Aqui utilizamos o `font-weight: 100;` para deixar a fonte com um constraste mais grosso em nossa `font-family: cursive;`.
 
+        - `font-size`:
+
+            - O `font-size` é utilizado para definir o tamanho da fonto no `html` via `css`.
+
+            - Exemplos: 
+
+                ```css
+
+                    h2 {
+                    font-size: 16px;
+                    }
+
+                ```
+
+            - Resultado: 
+
+                - Aqui utilizamos o `font-size: 16px;` para definir que o tamanho da nossa font é 16px.
+
             
 
                 
