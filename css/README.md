@@ -941,6 +941,47 @@
 
                 - Aqui utilizamos o `letter-spacing: 10px;` para um espaçamento entre as letras de 10px, também utilizamos o `font-size: 16px;` para definir o tamanho da fonto em nosso `html` e por fim o `text-trasnform: uppercase;` para deixa todas as letras maiúsculas. 
 
+        - `Google fontes`:
+
+            - O  `google fontes` é um repositório de fontes gratuitas para utilizamos em nosso projeto, para acesesar ! [google fontes](https://fonts.google.com).
+
+            - Escolha a fonte que deseja e importe ela em nosso `css` para utilizamos, você consegue escolhe entre diversos tipos de fontes e de diversos tamanho.
+
+            - Pare importa as fontes do `google fontes` basta escolhe a fonte desejado e clicar em `get font`, após isso clicamos em `get embed code` para geramos o link da fonte tanto para o nosso `html`, se você deseja consumir diretamente no html ou via diretamente `css` com `<link>` or `@import`.
+
+            - Aqui é nosso `get font`:
+
+                ![googleFontes1](../css/assets/imagens/googleFonts1.png)
+
+            - Aqui é nosso `get embed code`:
+
+                ![googleFontes2](../css/assets/imagens/googleFonts2.png)
+
+            - Aqui é nosso `<link> and @import`:
+
+                ![googleFontes3](../css/assets/imagens/googleFonts3.png)
+
+            - Exemplo na prática:
+
+                ```css
+
+                h1 {
+                font-family: "Playwrite US Trad Guides", cursive;
+                font-weight: 100;
+                }
+
+                ```
+
+            - Resultado:
+
+                - Aqui utilizamos o `font-family: "Playwrite US Trad Guides", cursive;` para importa a fonte diretamente do google fontes, lembrando que temos que utilizar o `link` ou `@import` via `html` para utilizar a fonte.
+
+                
+
+
+
+           
+
             
 
                 
