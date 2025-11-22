@@ -1005,8 +1005,27 @@
 
 - O que são unidades de medida?
 
-    - Unidade de medida no `css` são
+    - Unidade de medida no `css` são o tamanho que determinamos de algo, geralmente utilizamos `px`, `rem`, `em`, `%`, `vh` ou `vw`. Elas ajudam a criar layouts que se ajustam ao design desejado. Cada unidade tem características próprias, e escolher a unidade certa pode impactar na flexibilidade e no comportamento do design.
 
+        - `px`:
+
+            - O `px` é a unidade de medida mais básica, já que representa um pixel na tela e é a menor unidade de medida, representando um pixel.
+
+            - Exemplo:
+
+                ```css
+
+                    header{
+                        background-color: #232323;
+                        color: #fff;
+                        padding: 10px;
+                    }
+
+                ```
+
+            - Resultado:
+
+                - Aqui utilizei um `background-color: #232323;` para deixa o fundo escuto e um `color: #fff;` para deixa a lestra branca, finalizando com um `padding: 10px;` da nossa unidade de meida básica que é o pixel, foram 10 pixel.
 
            
 
