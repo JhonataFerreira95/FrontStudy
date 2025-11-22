@@ -8,3 +8,20 @@ header{
     color: #fff;
     padding: 10px;
 }
+
+.box{
+    border: 1px solid #232323;
+    display: inline-block;
+    margin-top: 20px;
+    width: 75px;
+}
+
+.px{
+    height: 10px;
+}
+
+/* root element -> 16px*3=48px */
+
+.rem{
+    height: 3rem;
+}

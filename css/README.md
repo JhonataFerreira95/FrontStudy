@@ -1031,6 +1031,28 @@
 
                 - Aqui utilizei um `background-color: #232323;` para deixa o fundo escuto e um `color: #fff;` para deixa a lestra branca, finalizando com um `padding: 10px;` da nossa unidade de meida básica que é o pixel, foram 10 pixel.
 
+        - `rem`:
+
+            - O `rem` é a unidade medida que é uma unidade relativa baseada no tamanho da fonte do elemento raiz `html`. Por padrão, o valor do tamanho de fonte raiz é `16px`, então `1rem` é igual a `16px` (a menos que você altere explicitamente o tamanho da fonte na tag `html`).
+
+            - Melhor para layouts responsivos, já que o valor é relativo ao tamanho da fonte raiz, facilitando ajustes de escala em toda a página ao alterar o tamanho da fonte do elemento raiz.
+
+            - Pode ser mais difícil de calcular e entender se você não estiver acostumado com a ideia de unidades relativas.
+
+            - Exemplo:
+
+                ```css
+
+                    .rem{
+                        height: 3rem;
+                    }
+
+                ```
+
+            - Resultado:
+
+                - Aqui utilizei o `rem` que é basicamente é um multiplicador 3x do pixel, sem conta que ele é responsivo e não absoluto como o `px`.
+
            
 
             
