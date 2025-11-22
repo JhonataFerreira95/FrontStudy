@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+section{
+    height: 100px;
+}
+
 header{
     background-color: #232323;
     color: #fff;
@@ -28,4 +32,8 @@ header{
 
 .em{
     height: 2em;
+}
+
+.prcnt-33{
+    height: 33%;
 }

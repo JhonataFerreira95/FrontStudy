@@ -1066,6 +1066,7 @@
                 ```css
 
                     .em{
+                        font-size: 32px;
                         height: 2em;
                     }
 
@@ -1074,8 +1075,29 @@
             - Resultado:
 
                 - Aqui utilizamos o `em` básicamente para mostra como ele funciona, como já mencionado ele é baseado no elemento raiz que é o `root element`.
-                
 
+
+        - `%`:
+
+            - O `%` é relativa ao tamanho do elemento pai. Por exemplo, se um elemento tem largura de 50%, isso significa que a largura do elemento será metade do tamanho do seu elemento pai.
+
+            - Boa para criar layouts flexíveis e responsivos, já que o tamanho muda de acordo com o tamanho do contêiner.
+
+            - O cálculo de tamanho pode se tornar complicado dependendo da estrutura do layout.
+
+            - Exemplo:
+
+                ```css
+
+                .prcnt-33{
+                    height: 33%;
+                }
+
+                ```
+
+            - Resultado:
+
+                - Aqui utilizamos o `height: 33%;`, nosso elemento pai tem 100%, ou seja a altura do nosso `%` vai ser exatamente 33% dos 100% do elemento pai.
            
 
             
