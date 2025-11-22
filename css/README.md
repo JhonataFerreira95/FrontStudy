@@ -1011,6 +1011,10 @@
 
             - O `px` é a unidade de medida mais básica, já que representa um pixel na tela e é a menor unidade de medida, representando um pixel.
 
+            - É a unidade mais precisa e previsível, uma vez que o valor não muda, independentemente do dispositivo ou configurações de zoom.
+
+            - Não é responsivo, ou seja, o layout pode não se ajustar bem em diferentes tamanhos de tela ou dispositivos.
+
             - Exemplo:
 
                 ```css
