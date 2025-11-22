@@ -1053,6 +1053,29 @@
 
                 - Aqui utilizei o `rem` que é basicamente é um multiplicador 3x do pixel, sem conta que ele é responsivo e não absoluto como o `px`.
 
+        - `em`:
+
+            - O `em` como o `rem`, o `em` é uma unidade relativa, mas, em vez de se basear no tamanho da fonte do elemento raiz, ele se baseia no tamanho da fonte do elemento pai.
+
+            - Útil para definir tamanhos relativos dentro de um componente ou elemento específico, permitindo herança de estilos.
+
+            - Pode ser confuso em hierarquias de elementos, pois o valor depende do tamanho da fonte do elemento pai. Isso pode criar efeitos inesperados em componentes aninhados.
+
+            - Exemplo:
+
+                ```css
+
+                    .em{
+                        height: 2em;
+                    }
+
+                ```
+
+            - Resultado:
+
+                - Aqui utilizamos o `em` básicamente para mostra como ele funciona, como já mencionado ele é baseado no elemento raiz que é o `root element`.
+                
+
            
 
             
