@@ -1121,8 +1121,29 @@
 
                 - Utilizamos o `vh` para que o atríbuto com `id` `vh` seja responsivo a tela em determinado tamanho, em nosso caso foi o `30vh`, a medida que a tela expande ou diminui o `30vh` ocupa apenas 30% da tela.
 
-                
+        - `vw`:
            
+           - o `vw` é relativas ao tamanho da janela de visualização (viewport). `1vh` é `1%` da altura da tela, e `1vw` é `1%` da largura da tela.
+
+           - Excelentes para designs responsivos e full-screen, pois o layout se adapta ao tamanho da tela do usuário.
+
+           - Não funcionam bem em todos os contextos, como com elementos que devem ser dimensionados independentemente da tela.
+
+           - Exemplo:
+
+                ```css
+
+                    .vw {
+                        height: 30vw;
+                    }
+
+                ```
+
+            - Resultado:
+
+                - Utiizamos o `vw` para que o atríbuto com `id` `vw` seja repsonsivo em determiando tamanho, no nosso caso foi `30vw`, ou seja a largura da tela, enquanto o `vh` é responsivo é altura da tela.
+
+                
 
             
 

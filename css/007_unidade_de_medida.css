@@ -3,38 +3,38 @@
     padding: 0;
 }
 
-section{
+section {
     height: 100px;
 }
 
-header{
+header {
     background-color: #232323;
     color: #fff;
     padding: 10px;
 }
 
-.box{
+.box {
     border: 1px solid #232323;
     display: inline-block;
     margin-top: 20px;
     width: 75px;
 }
 
-.px{
+.px {
     height: 10px;
 }
 
 /* root element -> 16px*3=48px */
 
-.rem{
+.rem {
     height: 3rem;
 }
 
-.em{
+.em {
     height: 2em;
 }
 
-.prcnt-33{
+.prcnt-33 {
     height: 33%;
 }
 
@@ -42,4 +42,10 @@ header{
 
 .vh {
     height: 30vh;
+}
+
+/* viewport widht */
+
+.vw {
+    height: 30vw;
 }
