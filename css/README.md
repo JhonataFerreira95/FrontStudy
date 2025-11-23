@@ -1098,6 +1098,30 @@
             - Resultado:
 
                 - Aqui utilizamos o `height: 33%;`, nosso elemento pai tem 100%, ou seja a altura do nosso `%` vai ser exatamente 33% dos 100% do elemento pai.
+
+        - `vh`:
+
+            - O `vh`, `1vh` é igual a `1%` da altura da janela de visualização (viewport). Ou seja, se a altura da janela de visualização for `1000px`, `1vh` será `10px`.
+
+            - Útil para criar layouts que se adaptam à altura da tela, como cabeçalhos ou seções de altura completa.
+
+            - Pode ser problemático em dispositivos móveis, pois a altura da janela de visualização pode variar devido a barras de navegação ou outras mudanças na interface do dispositivo.
+
+            - Exemplo: 
+
+                ```css
+
+                    .vh {
+                        height: 30vh;
+                    }
+
+                ```
+
+            - Resultado:
+
+                - Utilizamos o `vh` para que o atríbuto com `id` `vh` seja responsivo a tela em determinado tamanho, em nosso caso foi o `30vh`, a medida que a tela expande ou diminui o `30vh` ocupa apenas 30% da tela.
+
+                
            
 
             
