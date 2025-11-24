@@ -12,6 +12,7 @@
 07. [Seletores Básicos](#seletores-básicos)
 08. [Textos e Fontes](#textos-e-fontes)
 09. [Unidades de Medida](#unidade-de-medida)
+10. [Herança](#herança)
 
 ## O que é o HTML e como usá-lo
 
@@ -1143,7 +1144,7 @@
 
                 - Utiizamos o `vw` para que o atríbuto com `id` `vw` seja repsonsivo em determiando tamanho, no nosso caso foi `30vw`, ou seja a largura da tela, enquanto o `vh` é responsivo é altura da tela.
 
-                
+## Herança           
 
             
 
