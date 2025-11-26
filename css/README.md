@@ -1210,6 +1210,34 @@
 
     - Resumão:
 
+        - Ordem da cascata:
+
+            - Estilos inline:
+
+                - Estilos definidos diratamente no elemento `html` usando atríbuto `style`
+
+            - IDs:
+
+                - Seletores com `id` específicos, como `#myElement`
+
+            - Classes, Pseudo-classes e Atríbutos:
+
+                - Seletores como classes `.myClass`, pseudo-classes `:hover, :nth-child()` e seletores de atributos `[type="text"]`
+
+            - Elementos e Pseudo-Elementos:
+
+                - Seletores que se refere a elementos `html`, `div, p` e pseudo-elementos `::before, ::after`
+
+        - Pontuações de especificidade:
+
+            - Estilos inline `1000 pontos`
+
+            - IDs `100 pontos`
+
+            - Classes, Pseudo-classe e Atríbutos `10 pontos`
+
+            - Elementos e Pseudo-elementos `1 ponto`
+
     - Exemplos na prática:
 
         ```html
