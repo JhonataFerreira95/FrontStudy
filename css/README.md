@@ -1210,5 +1210,30 @@
 
     - Resumão:
 
+    - Exemplos na prática:
+
+        ```html
+
+            <body>
+                <h1>Especificidade</h1>
+            </body>
+
+        ```
+
+        ```css
+        
+            body > h1{
+                color: #0f0;
+            }
+
+            h1{
+                color: #f00;
+            }
+
+         ```
+
+    - Resultado:
+
+        - Como pode ver na prática, o título `h1` ficou verde e não vermelho, porquê? Por conta que a regra de `especificidade` que aplicamos no `body > h1` sobrepõe a regra de cascata do `css`, por isso o `h1` ficou verde no lugar de vermelho.
 
 
