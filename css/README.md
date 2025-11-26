@@ -1202,7 +1202,11 @@
 
         - A ordem dos seletores também importa em casos de empate na especificidade.
 
-    - !important:
+    - `!important`:
+
+        - O `!important` sobrepõe todas as outras regras de especificidade.
+
+        - Evite o uso excessivo de `!important` para não prejudica a manutenção do código.
 
     - Resumão:
 
