@@ -1196,9 +1196,11 @@
 
         - Seletores de classe e atríbuto têm maior especificidade que os seletores de tipo.
 
-        - Seletores de classe e atríbuto têm maior especificidade que os seletores de tipo.
-
     - Combinação de seletores:
+
+        - Quando múltiplos seletores se aplicam a um elemento, suas especificidade se somam.
+
+        - A ordem dos seletores também importa em casos de empate na especificidade.
 
     - !important:
 
