@@ -1146,6 +1146,34 @@
 
 ## Herança           
 
+- A `herança` no `css` funciona dessa forma, você aplica estilos em determinado elemento e os outros elementos que estão dentro do primeiro elemento herdam suas características.
+
+- Exemplo:
+
+    ```html
+
+        <header>
+            <h1>Herança no CSS</h1>
+        </header>
+
+    ```
+
+    ```css
+
+        header {
+            background-color: #232323;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+    ```
+
+- Resultado:
+
+    - No exemplo aplicamos tudo no `header` do `html`, repare que dentro do `header` temos a tag `h1`, por meio da herança todos as propriedades do `css` aplicadas no `header` vão herda tudo para `h1`, esse é o conceito de `herança` no `css`.
+
+    - Vale resaltar que apenas algumas propriedades são herdadas, outras não. 
             
 
                 
