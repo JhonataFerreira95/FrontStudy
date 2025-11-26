@@ -13,6 +13,7 @@
 08. [Textos e Fontes](#textos-e-fontes)
 09. [Unidades de Medida](#unidade-de-medida)
 10. [Herança](#herança)
+11. [Especificidade](#especificidade)
 
 ## O que é o HTML e como usá-lo
 
@@ -1174,9 +1175,10 @@
     - No exemplo aplicamos tudo no `header` do `html`, repare que dentro do `header` temos a tag `h1`, por meio da herança todos as propriedades do `css` aplicadas no `header` vão herda tudo para `h1`, esse é o conceito de `herança` no `css`.
 
     - Vale resaltar que apenas algumas propriedades são herdadas, outras não. 
-            
 
-                
+## Especificidade
+            
+-        
 
 
 
