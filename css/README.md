@@ -1190,6 +1190,14 @@
 
     - Epecificidade de seletores:
 
+        - Seletores universais têm baixa especificidade.
+
+        - Seletores de tipo têm uma especificidade maior que os universais.
+
+        - Seletores de classe e atríbuto têm maior especificidade que os seletores de tipo.
+
+        - Seletores de classe e atríbuto têm maior especificidade que os seletores de tipo.
+
     - Combinação de seletores:
 
     - !important:
