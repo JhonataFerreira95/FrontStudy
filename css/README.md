@@ -1178,7 +1178,23 @@
 
 ## Especificidade
             
--        
+- A especifidade determina a ordem de prioridade das regras `css` que se aplicam a elementos `html`.
+
+    - Ordem de aplicação das regras:
+
+        - Pelo formato de cascata do `css` os estilos são aplicados em uma ordem sequencial.
+
+        - Regras definidas inline têm a maior especificidade.
+
+        - Regras em arquivos externos sã aplicadas por últumo e têm menor especificidade.
+
+    - Epecificidade de seletores:
+
+    - Combinação de seletores:
+
+    - !important:
+
+    - Resumão:
 
 
 
