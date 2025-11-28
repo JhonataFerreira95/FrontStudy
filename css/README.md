@@ -14,6 +14,7 @@
 09. [Unidades de Medida](#unidade-de-medida)
 10. [Herança](#herança)
 11. [Especificidade](#especificidade)
+12. [Seletores Avançados](#seletores-avançados)
 
 ## O que é o HTML e como usá-lo
 
@@ -1264,4 +1265,5 @@
 
         - Como pode ver na prática, o título `h1` ficou verde e não vermelho, porquê? Por conta que a regra de `especificidade` que aplicamos no `body > h1` sobrepõe a regra de cascata do `css`, por isso o `h1` ficou verde no lugar de vermelho.
 
+## Seletores Avançados
 
