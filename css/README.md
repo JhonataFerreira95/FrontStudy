@@ -1410,4 +1410,36 @@
         - Resultado:
 
             - Aqui utilizamos o `:first-child` para estilizar a primeiro propriedade filho do `html` via `css`, também utilizamos `:last-child` para estilizar o último propriedade filho do `html` via `css`.
-            
+
+    - `:not()`:
+
+        - O `:not` é uma pseudo-classe de negação(ou inversão de um seletor) que seleciona elementos que não correspondem a um seletor específico.
+
+        - Exemplos:
+
+            ```html
+
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                    <li>item 5</li>
+                </ul>
+
+            ```
+
+            ```css
+
+                li:not(:first-child){
+                    color: #f00;
+                }
+
+            ```
+
+        - Resultado:
+
+            ![:not](./assets/imagens/not_seletores_avancado.png)
+
+            - Aqui utilizamos o `li:not(:first-child)` para negar todos os que não são o primeiro elemento ficarem da cor `#f00`(vermelho).
+

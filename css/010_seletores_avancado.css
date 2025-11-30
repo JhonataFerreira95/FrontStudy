@@ -29,3 +29,7 @@ li:first-child{
 li:last-child{
     color: rgb(255, 0, 179);
 }
+
+li:not(:first-child){
+    color: #f00;
+}
