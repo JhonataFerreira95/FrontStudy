@@ -1,0 +1,9 @@
+/* seletor :nth-child */
+
+li:nth-child(2){
+    color: #f00;
+}
+
+li:nth-child(2n){
+    color: #00f;
+}

@@ -1267,3 +1267,40 @@
 
 ## Seletores Avançados
 
+- Os seletores avançado no `css`, nos permite estilizar partes do `html` com mais precisão usando a relações entre eles.
+
+- Seletores:
+
+    - `:nth-child()`:
+
+        - Este seletor avançado selecionar a tag por uma ordem específicada, também podendo multiplicar o mesmo dessa forma `:nth-child(2n)`, ele selecionar elementos com base em sua ordem dentro do pai.
+
+        - Exemplos:
+
+            ```html
+
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+
+            ```
+
+            ```css
+
+                li:nth-child(2){
+                    color: #f00;
+                }
+
+                li:nth-child(2n){
+                    color: #00f;
+                }
+
+            ```
+
+        - Resultado:
+
+            - Neste exemplos utilizamos dois tipos de `:nth-child()`, um para selecionar a tag `<li>`  número dois e a outra para selecionar as duas tag `<li>` de uma multipla.
+
+            
