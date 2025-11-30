@@ -15,6 +15,7 @@
 10. [Herança](#herança)
 11. [Especificidade](#especificidade)
 12. [Seletores Avançados](#seletores-avançados)
+13. [Variáveis no CSS](#variáveis-no-css)
 
 ## O que é o HTML e como usá-lo
 
@@ -1442,4 +1443,6 @@
             ![:not](./assets/imagens/not_seletores_avancado.png)
 
             - Aqui utilizamos o `li:not(:first-child)` para negar todos os que não são o primeiro elemento ficarem da cor `#f00`(vermelho).
+
+## Variáveis no CSS
 
