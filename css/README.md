@@ -1303,4 +1303,38 @@
 
             - Neste exemplos utilizamos dois tipos de `:nth-child()`, um para selecionar a tag `<li>`  número dois e a outra para selecionar as duas tag `<li>` de uma multipla.
 
-    - ``:    
+    - `hover`:
+
+        - O `hover` é um seletor de estado, quando se clica, selecionar ou passar o mouse por cima de um elemento isso é o estado, `hover` trabalha na estilização desses estados.
+
+        - Exemplos:
+
+            ```html
+
+                <section>
+
+                    <h2>Tipos de seletores</h2>
+
+                    <ul>
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                        <li>item 4</li>
+                        <li>item 5</li>
+                    </ul>
+
+                </section>
+
+            ```
+
+            ```css
+
+                li:hover{
+                    background-color: gray;
+                }
+
+            ```
+
+        - Resultado:
+
+            - Aqui utilizamos o `hover` para que toda vez q passarmos o mouse por cima de qualquer `<li>`, ela ficar com um `backgroud-color: gray;`.  
