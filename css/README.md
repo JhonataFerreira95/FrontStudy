@@ -1338,3 +1338,43 @@
         - Resultado:
 
             - Aqui utilizamos o `hover` para que toda vez q passarmos o mouse por cima de qualquer `<li>`, ela ficar com um `backgroud-color: gray;`.  
+
+    - `::before` e `::after`:
+
+        - O `::before` e `::after` são pseudos-elementos `css` que permitem inserir conteúdo antes ou depois de um elemento sem modificar o `html`.
+
+        - Ponto negativo dos pseudo-elementos é que não são clicaveis, conteúdo não é selecionável como texto normal e limitados em certas propriedades `css`.
+
+        - Exemplos:
+
+            ```html
+
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                    <li>item 5</li>
+                </ul>
+
+            ```
+
+            ```css
+
+                li::before{
+                    content: " (antes) ";
+                }
+
+                li::after{
+                    content: " (depois) ";
+                }
+
+            ```
+
+        - Resultado:
+
+            ![Seletores Avançado](./assets/imagens/seletores_avancado.png)
+
+            - Como visto no exemplo utiliamos tanto `::before` qunato `::after` para gerar uma pseudo-elemento sem alteração no `html`.
+
+    -
