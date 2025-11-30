@@ -1377,4 +1377,37 @@
 
             - Como visto no exemplo utiliamos tanto `::before` qunato `::after` para gerar uma pseudo-elemento sem alteração no `html`.
 
-    -
+    - `:first-child` e `:last-child`:
+
+        - O `:first-child` é uma pseudo-classe do CSS que seleciona o primeiro elemento filho dentro de um elemento pai, quanto `:last-child` é uma pseudo-classe do `css` que seleciona o último elemento filho dentro de um elemento pai.
+
+        - Exemplos:
+
+            ```html
+
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                    <li>item 5</li>
+                </ul>
+
+            ```
+
+            ```css
+
+                li:first-child{
+                    color: rgb(255, 174, 0);
+                }
+
+                li:last-child{
+                    color: rgb(255, 0, 179);
+                }
+
+            ```
+
+        - Resultado:
+
+            - Aqui utilizamos o `:first-child` para estilizar a primeiro propriedade filho do `html` via `css`, também utilizamos `:last-child` para estilizar o último propriedade filho do `html` via `css`.
+            
