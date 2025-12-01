@@ -1446,3 +1446,7 @@
 
 ## Variáveis no CSS
 
+- Como todo conceito de variável, no `css` podemos criar uma variável para reutilizar onde e quando quisermos. Podemos criar um variável com conjunto de estilos, cor e forma de comportamente diferente e depois reutilizar a mesma em qualquer parte de nosso `css`, isso é uma variável(propriedades costumizadas) no `css`.
+
+
+
