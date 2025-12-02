@@ -2,7 +2,9 @@
 
 ## índices
 
-00. [O que é o CSS3 e como usá-lo](#documentação-sobre-css3)
+## CSS3 
+
+00. [O que é o CSS3 e como usá-lo](#o-que-é-o-css-e-como-usá-lo)
 01. [Cores e estilos básicos](#corres-e-estilos-básicos)
 02. [DevTools](#devtools)
 03. [Cores](#cores)
@@ -17,7 +19,13 @@
 12. [Seletores Avançados](#seletores-avançados)
 13. [Variáveis no CSS](#variáveis-no-css)
 
-## O que é o CSS e como usá-lo
+## CSS Moderno
+
+## índices
+
+00. []
+
+### O que é o CSS e como usá-lo
 
 #### O que é CSS?
 
@@ -1518,3 +1526,4 @@
     - Resultado:
 
         - Como visto, nossa variável `:root` tem a sua cor principal como `#3c59e7(azul)` porém podemos sobrescreve-lá de uma forma simples apenas em um elemento específico.
+
