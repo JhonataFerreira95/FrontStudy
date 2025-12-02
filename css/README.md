@@ -1469,4 +1469,24 @@
 
             - Aqui criamos uma variável global onde a cor principal a ser utilizada é `--cor-principal: #3c59e7;(azul)`.
 
-    - 
+        - Utilizando a variável:
+
+            ```html
+
+                <header>
+                    <h1>Variáveis no CSS</h1>
+                </header>
+
+            ```
+
+            ```css
+
+                header{
+                    background-color: var(--cor-principal);
+                }
+
+            ```
+
+        - Resultado: 
+
+            - Aqui utilizamos a nossa variável do `css`, para consumir os estilos definidos em nossa variável utilizamos a palavra reservada `var()` e assim podemos selecionar qualquer uma das variaveis criadas dentro de nosso `:root`, em nosso caso foi a `--cor-principal`.

@@ -6,3 +6,7 @@
     --preenchimento-md: 2rem;
     --preenchimento-gd: 4rem;
 }
+
+header{
+    background-color: var(--cor-principal);
+}
