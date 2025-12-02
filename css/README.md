@@ -1448,5 +1448,25 @@
 
 - Como todo conceito de variável, no `css` podemos criar uma variável para reutilizar onde e quando quisermos. Podemos criar um variável com conjunto de estilos, cor e forma de comportamente diferente e depois reutilizar a mesma em qualquer parte de nosso `css`, isso é uma variável(propriedades costumizadas) no `css`.
 
+- Criação de váriaveis: 
+
+    - `:root`:
+
+        - Para criar variáveis globais no `css` usamos o seletor :root e dentro dele definimos os nomes iniciados por `--:`
 
 
+        - Exemplos:
+
+            ```css
+
+                :root{
+                    --cor-principal: #3c59e7;
+                }
+
+            ```
+
+        - Resultado:
+
+            - Aqui criamos uma variável global onde a cor principal a ser utilizada é `--cor-principal: #3c59e7;(azul)`.
+
+    - 
