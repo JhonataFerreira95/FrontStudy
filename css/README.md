@@ -17,7 +17,7 @@
 12. [Seletores Avançados](#seletores-avançados)
 13. [Variáveis no CSS](#variáveis-no-css)
 
-## O que é o HTML e como usá-lo
+## O que é o CSS e como usá-lo
 
 #### O que é CSS?
 
@@ -1490,3 +1490,31 @@
         - Resultado: 
 
             - Aqui utilizamos a nossa variável do `css`, para consumir os estilos definidos em nossa variável utilizamos a palavra reservada `var()` e assim podemos selecionar qualquer uma das variaveis criadas dentro de nosso `:root`, em nosso caso foi a `--cor-principal`.
+
+- Sobrescrevendo variáveis:
+
+    - Assim como podemo criar variáveis podemos atuaizar a atribuir novos valores a mesma de forma simples.
+
+    - Exemplos:
+
+        ```html
+
+            <div class="red-box">Caixa com cor de variável local</div>
+
+        ```
+
+        ```css
+
+            :root{
+                --cor-principal: #3c59e7;
+            }
+
+            .red-box{
+                --cor-principal: red;
+            }
+
+        ```
+
+    - Resultado:
+
+        - Como visto, nossa variável `:root` tem a sua cor principal como `#3c59e7(azul)` porém podemos sobrescreve-lá de uma forma simples apenas em um elemento específico.
