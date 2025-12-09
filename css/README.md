@@ -1527,3 +1527,34 @@
 
         - Como visto, nossa variável `:root` tem a sua cor principal como `#3c59e7(azul)` porém podemos sobrescreve-lá de uma forma simples apenas em um elemento específico.
 
+```mermaid
+flowchart TD
+
+    A["1.1. Home SIGRIE (Painel Executivo)<br>Visão 360º para gestor/diretor"] --> B["Telas / Seções"]
+
+    B --> C["Dashboard Geral SIGRIE"]
+
+    %% KPIs
+    C --> D["Cards KPI"]
+    D --> D1["Alunos transportados hoje"]
+    D --> D2["Refeições previstas x servidas"]
+    D --> D3["Alunos com risco de evasão"]
+    D --> D4["Alertas críticos<br>(segurança, transporte, merenda, frequência)"]
+
+    %% Gráficos
+    C --> E["Gráficos"]
+    E --> E1["Linha: frequência diária por escola"]
+    E --> E2["Barras: tempo médio de deslocamento por rota"]
+    E --> E3["Pizza: alunos por tipo de transporte"]
+
+    %% Alertas
+    C --> F["Lista de alertas recentes<br>(timeline/stream)"]
+
+    %% Componentes principais
+    A --> G["Componentes principais"]
+    G --> G1["CardKPI (padrão GateFlow)"]
+    G --> G2["GráficoLinha / GráficoBarra / GráficoPizza"]
+    G --> G3["ListaAlertas com filtros"]
+    G --> G4["SeletorInstituicao (expandir uso)"]
+```
+
