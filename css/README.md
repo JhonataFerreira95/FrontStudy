@@ -1528,33 +1528,57 @@
         - Como visto, nossa variável `:root` tem a sua cor principal como `#3c59e7(azul)` porém podemos sobrescreve-lá de uma forma simples apenas em um elemento específico.
 
 ```mermaid
-flowchart TD
+flowchart TB
+  %% Top
+  Home["1.1. Home SIGRIE (Painel Executivo)<br>Visão 360º para gestor/diretor"]
 
-    A["1.1. Home SIGRIE (Painel Executivo)<br>Visão 360º para gestor/diretor"] --> B["Telas / Seções"]
+  subgraph DASH["Dashboard Geral SIGRIE"]
+    direction TB
+    KPIs["Cards KPI"]
+    GRAF["Gráficos"]
+    ALERTS["Lista de alertas recentes<br>(timeline/stream)"]
+    SELECTOR["SeletorInstituicao"]
+  end
 
-    B --> C["Dashboard Geral SIGRIE"]
+  Home --> DASH
 
-    %% KPIs
-    C --> D["Cards KPI"]
-    D --> D1["Alunos transportados hoje"]
-    D --> D2["Refeições previstas x servidas"]
-    D --> D3["Alunos com risco de evasão"]
-    D --> D4["Alertas críticos<br>(segurança, transporte, merenda, frequência)"]
+  %% Componentes (módulo / biblioteca)
+  subgraph COMPS["Componentes Principais (biblioteca)"]
+    direction LR
+    CardKPI[/"CardKPI<br>(padrão GateFlow)"/]
+    GrafLinha[/"GraficoLinha"/]
+    GrafBarra[/"GraficoBarra"/]
+    GrafPizza[/"GraficoPizza"/]
+    ListaAlertas[/"ListaAlertas<br>com filtros"/]
+    SeletorInst[/"SeletorInstituicao (expandido)"/]
+  end
 
-    %% Gráficos
-    C --> E["Gráficos"]
-    E --> E1["Linha: frequência diária por escola"]
-    E --> E2["Barras: tempo médio de deslocamento por rota"]
-    E --> E3["Pizza: alunos por tipo de transporte"]
+  %% Mapeamento de UI -> Componentes
+  KPIs -->|usa| CardKPI
+  GRAF -->|linha| GrafLinha
+  GRAF -->|barra| GrafBarra
+  GRAF -->|pizza| GrafPizza
+  ALERTS -->|renderiza| ListaAlertas
+  SELECTOR -->|integra| SeletorInst
 
-    %% Alertas
-    C --> F["Lista de alertas recentes<br>(timeline/stream)"]
+  %% Itens de KPI (detalhe, ligados visualmente)
+  subgraph KPI_ITEMS["Cards (exemplos)"]
+    T1["Alunos transportados hoje"]
+    T2["Refeições previstas x servidas"]
+    T3["Alunos com risco de evasão"]
+    T4["Alertas críticos<br>(segurança, transporte, merenda, frequência)"]
+  end
 
-    %% Componentes principais
-    A --> G["Componentes principais"]
-    G --> G1["CardKPI (padrão GateFlow)"]
-    G --> G2["GráficoLinha / GráficoBarra / GráficoPizza"]
-    G --> G3["ListaAlertas com filtros"]
-    G --> G4["SeletorInstituicao (expandir uso)"]
+  KPIs --> KPI_ITEMS
+  T1 --> CardKPI
+  T2 --> CardKPI
+  T3 --> CardKPI
+  T4 --> CardKPI
+
+  %% Legenda / Observações
+  classDef note fill:#f9f,stroke:#333,stroke-width:0.5;
+  NOTE["Observação: componentes reaproveitam padrões GateFlow\n(e.g. CardKPI)"]:::note
+  COMPS --> NOTE
+
 ```
 
