@@ -1067,7 +1067,7 @@
 
         - `em`:
 
-            - O `em` como o `rem`, o `em` é uma unidade relativa, mas, em vez de se basear no tamanho da fonte do elemento raiz, ele se baseia no tamanho da fonte do elemento pai.
+            - O `em` é como o `rem`, o `em` é uma unidade relativa, mas, em vez de se basear no tamanho da fonte do elemento raiz, ele se baseia no tamanho da fonte do elemento pai.
 
             - Útil para definir tamanhos relativos dentro de um componente ou elemento específico, permitindo herança de estilos.
 
