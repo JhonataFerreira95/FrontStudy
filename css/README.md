@@ -1526,4 +1526,3 @@
     - Resultado:
 
         - Como visto, nossa variável `:root` tem a sua cor principal como `#3c59e7(azul)` porém podemos sobrescreve-lá de uma forma simples apenas em um elemento específico.
-
