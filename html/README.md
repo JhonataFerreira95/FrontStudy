@@ -70,11 +70,11 @@ Uma `tag` com um atrbuto é algo como:
 ## Estrutura de uma página web
 
 
-- Uma página web é composta principais, o `head` e o `body`.
+- Uma página web é composta principais, o `header` e o `body`.
 
-- A tag `head` define s meta dados do documento, ou seja, informações sbre o próprio documento.
+- A tag `header` define s meta dados do documento, ou seja, informações sbre o próprio documento.
 
-- O `head` é feito para o navegador, para que ele "conheça melhor" a página HTML em questão.
+- O `header` é feito para o navegador, para que ele "conheça melhor" a página HTML em questão.
 
 - A tag `body` contém todo o conteúdo visível do documento.
 
@@ -82,14 +82,14 @@ Uma `tag` com um atrbuto é algo como:
 
 
 
-### head
+### header
 
 ```html
 
 <html>
-<head>
+<header>
 	<title>HTML page</title>
-</head>
+</header>
 
 </html>
 
@@ -97,7 +97,7 @@ Uma `tag` com um atrbuto é algo como:
 
 ### body
 
-```bash
+```html
 
 <body>
 	<h1>Olá, mundo!</h1>
