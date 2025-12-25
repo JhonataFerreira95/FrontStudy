@@ -421,7 +421,7 @@
 
 # Box model: margin e padding
 
-- Aqui irei aborda sobre o `box model`, afinal as páginas webs utilizam o modelo de caixa, por isso o nome `box model`, quando se criar uma página `html` ou qualquer coisa web, eles seguem o modelo de caixa.
+- Aqui irei aborda sobre o `box model`, afinal as páginas webs utilizam o modelo de caixa, por isso o nome `box model`, quando se criar uma página `html` ou qualquer coisa web, eles seguem o modelo de caixa. `Margin e Padding` seguem a seguinte ordem para definição tudo em uma linah `margin/padding: top -> right -> bottom -> left;`
 
 - Margin: 
 
