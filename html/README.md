@@ -57,7 +57,6 @@ Uma `tag` com um atrbuto é algo como:
 - Divisores, cabeçalhos, rodapés, etc.
 
 
-
 ### Recomendações além da minha própria documentação
 
 - Documentaçõa da [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)!
