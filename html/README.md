@@ -47,7 +47,6 @@ Uma `tag` com um atrbuto é algo como:
 
 ### Existem tipos de elementos HTML
 
-
 - Títulos, parágrafos, listas, etc.
 
 - Imagens, vídeos, áudios, etc.
