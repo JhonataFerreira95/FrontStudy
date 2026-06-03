@@ -76,7 +76,6 @@ Uma `tag` com um atrbuto é algo como:
 - O `body` é feito para os usuários, ele é a página em si.
 
 
-
 ### header
 
 ```html
