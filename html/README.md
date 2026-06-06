@@ -192,7 +192,6 @@ Importante saber que uma página web esteja sempre otimizada. Páginas pesada de
 - **Utilze os formatos corretos como:**
 
 
-
     - JPEG:formato de mais qualidade, porém mais pesado.</li>
 
     - PNG:formato inferior ao JPEG, mas que pode ser comprimido mantendo a qualidade.
