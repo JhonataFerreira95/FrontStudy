@@ -119,7 +119,6 @@ Bem, para textos simples e quebra de linha utilizamos a tag `<p>` que é refente
 
 ```
 
-
 ## Elementos de formatação
 
 No html podemos escreve utilizando negrito, ítalico ou abmos para destacar partes de um texto, isso com a tag `<b>texto</b>` para negrito ou `<i>texto</i>` para ítalico.
