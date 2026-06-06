@@ -26,7 +26,6 @@
 
 - Usando o que chamamos de `tag`, que representam os elementos que queremos exibir na página web.
 
-
 Uma `tag` é algo como: 
 
 ```html
