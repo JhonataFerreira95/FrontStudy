@@ -200,7 +200,6 @@ Importante saber que uma página web esteja sempre otimizada. Páginas pesada de
 
     - SVG:formato usado para vetores, que são imagens geométricas super leves e que podem escalar para qualquer tamanho.
 
-
 ### Tamanhos corretos 
 
 Imagens grande ficam pesada e pquenas demais ficam pixeladas, se necessários use o atríbuto `srcset` para definir diferente versões da imagem para diferentes dispositivos. Comprima a imagem, se possível.
