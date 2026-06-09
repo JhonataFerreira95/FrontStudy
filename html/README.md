@@ -184,8 +184,6 @@ No html temos a presença de altura e largura da imagem, para complmentar isso, 
 
 Importante saber que uma página web esteja sempre otimizada. Páginas pesada demoram para carregar gerando uma experiência ruim, consomem mais dados, que é ruim para quem tem dados limitados. Um dos aspectos que mais pode atrapalha uma página são suas imagens.
 
-#
-
 ### Como otimizar as imagens?
 
 - **Utilze os formatos corretos como:**
