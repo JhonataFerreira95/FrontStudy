@@ -33,7 +33,6 @@ Uma `tag` é algo como:
 <p>isso é uma tag</p>
 
 ```
-
 Uma `tag` pode ter atributos, que são características especiais de um determinado elemento.
 
 Uma `tag` com um atrbuto é algo como: 
