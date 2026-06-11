@@ -639,7 +639,6 @@ Aqui irei aborda o formatos nas células, como por dados que ocupam duas linha o
 ```
 
 ## Formulários no HTML
-
 - O que são formulários?
 
     - Os formulários em `html` são estruturas que permitem a coleta de informações dos usuários, como nome, e-mail, senha, comentários, etc.
