@@ -20,7 +20,6 @@
 - Criada entre 1989 e 1990 para compartilhamento de pesquisas cietíficas entre Tim Bernes-Lee (físico inglês e autor da linguagem) e seus colegas de trabalho.
 
 ### Como funciona?
-
 - Através de arquivos de texto com a extensão `.html`.
 
 - Usando o que chamamos de `tag`, que representam os elementos que queremos exibir na página web.
