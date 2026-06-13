@@ -334,7 +334,6 @@ Para utilização de lista não ordenada sem numeração no `html` utlizamos a t
 </ul>
 
 ```
-
 Lista ordenadas e não ordenadas de forma aninhada, é possível aninhar as nossas lista ordenadas e não ordenada.
 
 ```html
