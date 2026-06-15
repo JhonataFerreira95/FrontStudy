@@ -18,7 +18,6 @@
 - É uma linguagem de marcação de texto usada para criar uma estrutura de elementos e suas informações, mais precisamente, os elementos de uma página web.
 
 - Criada entre 1989 e 1990 para compartilhamento de pesquisas cietíficas entre Tim Bernes-Lee (físico inglês e autor da linguagem) e seus colegas de trabalho.
-
 ### Como funciona?
 - Através de arquivos de texto com a extensão `.html`.
 
