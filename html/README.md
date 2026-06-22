@@ -42,6 +42,7 @@ Uma `tag` com um atrbuto é algo como:
 <p id="paragráfo-principal"> isso é uma tag com atributo</p>
 
 ```
+
 ### Existem tipos de elementos HTML
 
 - Títulos, parágrafos, listas, etc.
