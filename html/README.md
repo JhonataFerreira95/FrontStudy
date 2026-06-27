@@ -11,6 +11,7 @@
 06. [WAI-WARIA](#elementos-e-atríbutos-wai-waria)
 
 ## O que é o HTML e como usá-lo
+
 #### O que é `HTML`?
 
 - A singla HTML significa `HyperText Markup Leguage` ou  linguagem de marcação de HyperText.
