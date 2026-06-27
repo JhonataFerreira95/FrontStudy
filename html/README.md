@@ -60,7 +60,6 @@ Uma `tag` com um atrbuto é algo como:
 - Documentação da [W3SCHOOLS](https://www.w3schools.com/html/html_intro.asp)!
 
 ## Estrutura de uma página web
-
 - Uma página web é composta principais, o `header` e o `body`.
 
 - A tag `header` define s meta dados do documento, ou seja, informações sbre o próprio documento.
